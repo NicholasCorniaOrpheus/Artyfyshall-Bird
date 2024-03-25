@@ -1,0 +1,1 @@
+\relative c{b4 c d d,}

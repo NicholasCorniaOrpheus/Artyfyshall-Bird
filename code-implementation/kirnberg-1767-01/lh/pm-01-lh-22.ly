@@ -1,0 +1,1 @@
+\relative c{fs8.[d16] g8[e a cs,]}

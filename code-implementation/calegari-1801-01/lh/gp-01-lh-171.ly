@@ -1,0 +1,1 @@
+\relative c{c'4. gs!8 a4 fs}

@@ -1,0 +1,1 @@
+\relative c{d'8[d,] fs8.\trill[e32 d] fs8.\trill[e32 d]}

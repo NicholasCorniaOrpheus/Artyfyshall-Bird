@@ -1,0 +1,1 @@
+\relative c{gs'!8[e] r16 e'[b gs!] e[gs b d]}

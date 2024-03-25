@@ -1,0 +1,1 @@
+\relative c{<a a'>8^\f[<a a'> <a a'>] r r2}

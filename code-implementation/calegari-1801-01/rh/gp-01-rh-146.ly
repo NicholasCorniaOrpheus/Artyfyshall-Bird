@@ -1,0 +1,1 @@
+\relative c''{r4 <g e'>8 r8\fermata <b d>8 [r16 <a c>16 <g b>8 r16 <fs a>16]}

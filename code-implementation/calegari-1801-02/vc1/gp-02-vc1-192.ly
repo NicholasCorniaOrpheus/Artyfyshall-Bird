@@ -1,0 +1,1 @@
+\relative c''{d4(cs8) a gs4 fs}

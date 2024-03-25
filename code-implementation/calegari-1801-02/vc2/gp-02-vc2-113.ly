@@ -1,0 +1,1 @@
+\relative c''{a32[b cs8.] cs4 a32[b cs8.] cs8[a]}

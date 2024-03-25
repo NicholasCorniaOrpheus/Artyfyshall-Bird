@@ -1,0 +1,1 @@
+\relative c''{d8[(cs!)] cs[(bf!)] bf[(a)] a[(g)]}

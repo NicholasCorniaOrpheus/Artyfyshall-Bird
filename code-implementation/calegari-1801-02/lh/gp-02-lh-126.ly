@@ -1,0 +1,1 @@
+\relative c{<a a'>2^\f r8 d'16[b] gs8[a]}

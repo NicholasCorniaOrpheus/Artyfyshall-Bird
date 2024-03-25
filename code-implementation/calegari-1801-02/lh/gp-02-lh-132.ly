@@ -1,0 +1,1 @@
+\relative c{r8 e[(gs a)] r e[(gs a)]}

@@ -1,0 +1,1 @@
+\relative c''{<cs, a'>4 r r \bar"||" \partial 4 s}

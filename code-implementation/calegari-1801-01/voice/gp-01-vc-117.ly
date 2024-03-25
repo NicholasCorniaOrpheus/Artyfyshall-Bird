@@ -1,0 +1,1 @@
+\relative c''{d8.[b16\fermata] d4 g,8[b] d[g]}

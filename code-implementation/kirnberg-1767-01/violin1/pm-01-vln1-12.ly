@@ -1,0 +1,1 @@
+\relative c''{fs,8[\tuplet3/2{fs'16 g a]} g8[\tuplet 3/2{g16 a b]} \grace{b8} a4}

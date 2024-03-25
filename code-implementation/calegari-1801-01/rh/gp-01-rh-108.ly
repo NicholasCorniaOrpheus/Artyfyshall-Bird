@@ -1,0 +1,1 @@
+\relative c''{\grace{c8} <g b>2\fermata <b d>4 <g b>}

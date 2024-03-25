@@ -1,0 +1,168 @@
+GNU LilyPond 2.22.1
+Changing working directory to: `/tmp/tmpn1581dje'
+Processing `/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly'
+Parsing...
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:1:10: error: cannot find file: `../paper_settings.ly'
+(search path: `/tmp/tmpn1581dje:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+\include 
+         "../paper_settings.ly" 
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:13:14: error: cannot find file: `../voice_option.ly'
+(search path: `/tmp/tmpn1581dje:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../voice_option.ly"
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:14:23: error: string outside of text script or \lyricmode
+    \mark{"Prima Parte
+                      "}
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:15:14: error: cannot find file: `./mangeruva-1823/parte1/mw-01-\header { piece = \markup '
+(search path: `/tmp/tmpn1581dje:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "./mangeruva-1823/parte1/mw-01-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:14:10: error: wrong type for argument 1.  Expecting integer or markup, found (make-music (quote SequentialMusic) (quote elements) (list (make-music (quote LyricEvent) (quote text) "Prima Parte" (quote duration) (ly:make-duration 2))))
+    \mark
+         {"Prima Parte"}
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:17:14: error: string outside of text script or \lyricmode
+    \include 
+             "./mangeruva-1823/parte1/mw-01-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:17:15: error: syntax error, unexpected '.'
+    \include "
+              ./mangeruva-1823/parte1/mw-01-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:17:17: error: not a note name: mangeruva
+    \include "./
+                mangeruva-1823/parte1/mw-01-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:17:31: error: syntax error, unexpected '/'
+    \include "./mangeruva-1823
+                              /parte1/mw-01-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:17:32: error: not a note name: parte
+    \include "./mangeruva-1823/
+                               parte1/mw-01-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:17:39: error: not a note name: mw
+    \include "./mangeruva-1823/parte1/
+                                      mw-01-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:17:45: error: syntax error, unexpected \header
+    \include "./mangeruva-1823/parte1/mw-01-
+                                            \header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:17:55: error: not a note name: piece
+    \include "./mangeruva-1823/parte1/mw-01-\header { 
+                                                      piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:17:63: error: markup outside of text script or \lyricmode
+    \include "./mangeruva-1823/parte1/mw-01-\header { piece = 
+                                                              \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:18:1: error: syntax error, unexpected '.'
+
+.ly
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:18:2: error: not a note name: ly
+.
+ ly
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:15:72: warning: Unattached BeamEvent
+    \include "./mangeruva-1823/parte1/mw-01-\header { piece = \markup "
+                                                                       [1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:26:14: error: cannot find file: `../voice_option.ly'
+(search path: `/tmp/tmpn1581dje:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../voice_option.ly"
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:27:25: error: string outside of text script or \lyricmode
+    \mark{"Seconda Parte
+                        "}
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:28:14: error: cannot find file: `./mangeruva-1823/parte2/mw-02-\header { piece = \markup '
+(search path: `/tmp/tmpn1581dje:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "./mangeruva-1823/parte2/mw-02-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:27:10: error: wrong type for argument 1.  Expecting integer or markup, found (make-music (quote SequentialMusic) (quote elements) (list (make-music (quote LyricEvent) (quote text) "Seconda Parte" (quote duration) (ly:make-duration 0))))
+    \mark
+         {"Seconda Parte"}
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:30:14: error: string outside of text script or \lyricmode
+    \include 
+             "./mangeruva-1823/parte2/mw-02-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:30:15: error: syntax error, unexpected '.'
+    \include "
+              ./mangeruva-1823/parte2/mw-02-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:30:17: error: not a note name: mangeruva
+    \include "./
+                mangeruva-1823/parte2/mw-02-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:30:31: error: syntax error, unexpected '/'
+    \include "./mangeruva-1823
+                              /parte2/mw-02-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:30:32: error: not a note name: parte
+    \include "./mangeruva-1823/
+                               parte2/mw-02-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:30:39: error: not a note name: mw
+    \include "./mangeruva-1823/parte2/
+                                      mw-02-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:30:45: error: syntax error, unexpected \header
+    \include "./mangeruva-1823/parte2/mw-02-
+                                            \header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:30:55: error: not a note name: piece
+    \include "./mangeruva-1823/parte2/mw-02-\header { 
+                                                      piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:30:63: error: markup outside of text script or \lyricmode
+    \include "./mangeruva-1823/parte2/mw-02-\header { piece = 
+                                                              \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:31:1: error: syntax error, unexpected '.'
+
+.ly
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:31:2: error: not a note name: ly
+.
+ ly
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:37:14: error: cannot find file: `../voice_option.ly'
+(search path: `/tmp/tmpn1581dje:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../voice_option.ly"
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:38:14: error: cannot find file: `./mangeruva-1823/parte3/mw-03-\header { piece = \markup '
+(search path: `/tmp/tmpn1581dje:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "./mangeruva-1823/parte3/mw-03-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:40:14: error: string outside of text script or \lyricmode
+    \include 
+             "./mangeruva-1823/parte3/mw-03-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:40:15: error: syntax error, unexpected '.'
+    \include "
+              ./mangeruva-1823/parte3/mw-03-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:40:17: error: not a note name: mangeruva
+    \include "./
+                mangeruva-1823/parte3/mw-03-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:40:31: error: syntax error, unexpected '/'
+    \include "./mangeruva-1823
+                              /parte3/mw-03-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:40:32: error: not a note name: parte
+    \include "./mangeruva-1823/
+                               parte3/mw-03-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:40:37: error: not a duration
+    \include "./mangeruva-1823/parte
+                                    3/mw-03-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:40:39: error: not a note name: mw
+    \include "./mangeruva-1823/parte3/
+                                      mw-03-\header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:40:45: error: syntax error, unexpected \header
+    \include "./mangeruva-1823/parte3/mw-03-
+                                            \header { piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:40:55: error: not a note name: piece
+    \include "./mangeruva-1823/parte3/mw-03-\header { 
+                                                      piece = \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:40:63: error: markup outside of text script or \lyricmode
+    \include "./mangeruva-1823/parte3/mw-03-\header { piece = 
+                                                              \markup "[1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:41:1: error: syntax error, unexpected '.'
+
+.ly
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:41:2: error: not a note name: ly
+.
+ ly
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:38:72: warning: Unattached BeamEvent
+    \include "./mangeruva-1823/parte3/mw-03-\header { piece = \markup "
+                                                                       [1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:28:72: warning: Unattached BeamEvent
+    \include "./mangeruva-1823/parte2/mw-02-\header { piece = \markup "
+                                                                       [1-1-7-7-2-8-7-4-4-7]" }
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:47:14: error: cannot find file: `../layout_settings.ly'
+(search path: `/tmp/tmpn1581dje:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../layout_settings.ly"
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:8:5: error: errors found, ignoring music expression
+    
+    <<
+/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly:1: warning: no \version statement found, please add
+
+\version "2.22.1"
+
+for future compatibility
+fatal error: failed files: "/tmp/tmpn1581dje/2024-03-12T15-32-45-734015-9b6275f.ly"

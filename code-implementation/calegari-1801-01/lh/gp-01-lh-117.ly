@@ -1,0 +1,1 @@
+\relative c{<b b'>2^\f b'4 b}

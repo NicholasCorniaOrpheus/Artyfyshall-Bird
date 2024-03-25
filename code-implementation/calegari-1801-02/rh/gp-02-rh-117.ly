@@ -1,0 +1,1 @@
+\relative c''{<fs a>8[<e gs> <d fs> <cs e>] <cs e>[<b d> <a cs> <gs b>]}

@@ -1,0 +1,11 @@
+
+}  
+    
+    >> 
+    %Violin2
+    \context Staff = "violin2" \with { instrumentName = "Viol. 2" }
+    
+    <<
+    \set Staff.midiInstrument =#"violin" {
+
+    \include "voice_option.ly"

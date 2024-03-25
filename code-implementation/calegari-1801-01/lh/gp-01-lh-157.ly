@@ -1,0 +1,1 @@
+\relative c{<d, d'>2 <c c'>4 <b b'>}

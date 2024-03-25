@@ -1,0 +1,1 @@
+\relative c{<ef,! ef'!>4^\f <d d'>8 r16\fermata fs'16^\p g4 d}

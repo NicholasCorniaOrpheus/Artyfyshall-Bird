@@ -1,0 +1,1 @@
+\relative c''{\partial 4 r4 <<{<as! cs e>2 <b d>2} \\ {fs1} >>}

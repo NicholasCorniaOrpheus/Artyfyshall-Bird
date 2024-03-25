@@ -1,0 +1,1 @@
+\relative c''{\grace{d8} cs2\fermata cs8[d] e[fs]}

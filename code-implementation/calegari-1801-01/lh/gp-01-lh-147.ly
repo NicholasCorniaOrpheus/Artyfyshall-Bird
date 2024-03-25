@@ -1,0 +1,1 @@
+\relative c{r4 <d, d'>4^\fp(<e e'>8) r8 <b' b'>4^\f}

@@ -1,0 +1,1 @@
+\relative c{<g g'>4.^\f r8 c'8^\p[(d) b g]}

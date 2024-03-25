@@ -1,0 +1,1 @@
+~\relative c''{f8 f e d e e d c}

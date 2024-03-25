@@ -1,0 +1,1 @@
+\relative c{a'8[e] e16[d cs b] a4}

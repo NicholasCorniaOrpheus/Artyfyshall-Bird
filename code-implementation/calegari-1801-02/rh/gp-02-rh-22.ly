@@ -1,0 +1,1 @@
+\relative c''{r4 <a cs>4 \fermata <cs a'>8[<e gs> <d fs> <cs e>]}

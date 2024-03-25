@@ -1,0 +1,1 @@
+\relative c{<g g'>4^\f r8. g16^\p c4 b8[g]}

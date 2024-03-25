@@ -1,0 +1,1 @@
+\relative c{fs8[d] r16 d'16[a fs] d[fs a c!]}

@@ -1,0 +1,10 @@
+\include "paper_settings.ly"
+
+\score{
+ << 
+    %Voice part
+    \context Staff = "voice" \with { instrumentName = "Voice" }
+    
+    <<
+    \set Staff.midiInstrument =#"voice oohs" {
+    \include "voice_option.ly"

@@ -1,0 +1,1 @@
+\relative c''{<b d>4. (<a c>8) <g b> <b g'>[<g b> <g b>]}

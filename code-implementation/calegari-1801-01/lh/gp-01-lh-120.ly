@@ -1,0 +1,1 @@
+\relative c{r4^\f <d, d'>8. [<d d'>16] <d d'>4 r}

@@ -1,0 +1,15 @@
+
+}  
+    
+    >>  
+    
+    >>
+    
+    %Harpsichord
+    \context PianoStaff \with { instrumentName = "Clav."}
+    <<
+      
+       \context Staff = "rh" {
+         \set Staff.midiInstrument =#"harpsichord"
+         %aggregation of violin1 and 2
+         \include "voice_option.ly"

@@ -1,0 +1,1 @@
+\relative c''{r4 a8[<e b'>] <e c'>4 <d a'>}

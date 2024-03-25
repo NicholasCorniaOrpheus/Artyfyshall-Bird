@@ -1,0 +1,1 @@
+\relative c{g'4 a8 b c2}

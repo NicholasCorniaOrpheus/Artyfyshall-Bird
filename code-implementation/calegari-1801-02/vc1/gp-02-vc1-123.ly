@@ -1,0 +1,1 @@
+\relative c''{a4 r e'32[d cs8.] cs4}

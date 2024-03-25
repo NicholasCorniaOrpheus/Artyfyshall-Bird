@@ -1,0 +1,1 @@
+\relative c''{d16[(fs) a,-! g-!] \grace{g4} fs2 \bar":|."}

@@ -1,0 +1,1 @@
+\relative c''{e32[d cs8.] cs32[b a8.] d32[cs b8.] b32[a gs8.]}

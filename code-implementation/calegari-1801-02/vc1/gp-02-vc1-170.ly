@@ -1,0 +1,1 @@
+\relative c''{cs4(e) e8[fs] gs[a]}

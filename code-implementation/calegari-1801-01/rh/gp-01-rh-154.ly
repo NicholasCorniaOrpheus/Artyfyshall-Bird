@@ -1,0 +1,3 @@
+\relative c'{
+  r4 <d fs a d>8. [ <d fs a d>16 ] <d fs a d>8 [ a' fs d ]
+}

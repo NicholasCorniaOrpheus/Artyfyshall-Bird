@@ -1,0 +1,1 @@
+\relative c''{r8 <gs b>[<b d> <a cs>] <gs b>4 r}

@@ -1,0 +1,1 @@
+\relative c{r4 <g g'>4\fermata r2}

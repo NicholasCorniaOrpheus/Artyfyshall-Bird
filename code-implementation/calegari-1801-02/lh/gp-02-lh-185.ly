@@ -1,0 +1,1 @@
+\relative c{a'[e'] gs,[e'] a,[e'] <b d>4^\f}

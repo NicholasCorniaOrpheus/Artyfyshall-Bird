@@ -1,0 +1,1 @@
+\relative c''{gs4 r e'8.[fs32 e d8] cs8}

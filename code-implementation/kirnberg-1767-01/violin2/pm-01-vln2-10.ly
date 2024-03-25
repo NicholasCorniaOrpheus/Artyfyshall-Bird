@@ -1,0 +1,1 @@
+\relative c''{d8[a16 b] a[g fs e] d4}

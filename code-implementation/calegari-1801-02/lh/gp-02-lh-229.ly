@@ -1,0 +1,1 @@
+\relative c{<a a'>1^\fp}

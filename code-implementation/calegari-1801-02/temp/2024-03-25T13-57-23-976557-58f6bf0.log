@@ -1,0 +1,425 @@
+GNU LilyPond 2.22.1
+Changing working directory to: `/tmp/tmpl6j8e7fg'
+Processing `/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly'
+Parsing...
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:1:10: error: cannot find file: `../paper_settings.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+\include 
+         "../paper_settings.ly" 
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:15:14: error: cannot find file: `../voice_option.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../voice_option.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:16:14: error: cannot find file: `../vc1/gp-02-vc1-42.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-42.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:17:14: error: cannot find file: `../vc1/gp-02-vc1-109.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-109.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:18:14: error: cannot find file: `../vc1/gp-02-vc1-132.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-132.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:19:14: error: cannot find file: `../vc1/gp-02-vc1-118.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-118.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:20:14: error: cannot find file: `../vc1/gp-02-vc1-212.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-212.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:21:14: error: cannot find file: `../vc1/gp-02-vc1-54.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-54.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:22:14: error: cannot find file: `../vc1/gp-02-vc1-63.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-63.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:23:14: error: cannot find file: `../vc1/gp-02-vc1-16.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-16.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:24:14: error: cannot find file: `../vc1/gp-02-vc1-239.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-239.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:25:14: error: cannot find file: `../vc1/gp-02-vc1-17.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-17.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:26:14: error: cannot find file: `../vc1/gp-02-vc1-9.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-9.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:27:14: error: cannot find file: `../vc1/gp-02-vc1-256.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-256.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:28:14: error: cannot find file: `../vc1/gp-02-vc1-62.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-62.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:29:14: error: cannot find file: `../vc1/gp-02-vc1-4.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-4.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:30:14: error: cannot find file: `../vc1/gp-02-vc1-3.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-3.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:31:14: error: cannot find file: `../vc1/gp-02-vc1-41.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-41.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:32:14: error: cannot find file: `../vc1/gp-02-vc1-80.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-80.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:33:14: error: cannot find file: `../vc1/gp-02-vc1-145.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-145.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:34:14: error: cannot find file: `../vc1/gp-02-vc1-72.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-72.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:35:14: error: cannot find file: `../vc1/gp-02-vc1-211.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-211.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:36:14: error: cannot find file: `../vc1/gp-02-vc1-157.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-157.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:37:14: error: cannot find file: `../vc1/gp-02-vc1-170.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-170.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:38:14: error: cannot find file: `../vc1/gp-02-vc1-193.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-193.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:39:14: error: cannot find file: `../vc1/gp-02-vc1-152.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-152.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:46:14: error: cannot find file: `../voice_option.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../voice_option.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:47:14: error: cannot find file: `../vc2/gp-02-vc2-42.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-42.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:48:14: error: cannot find file: `../vc2/gp-02-vc2-109.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-109.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:49:14: error: cannot find file: `../vc2/gp-02-vc2-132.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-132.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:50:14: error: cannot find file: `../vc2/gp-02-vc2-118.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-118.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:51:14: error: cannot find file: `../vc2/gp-02-vc2-212.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-212.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:52:14: error: cannot find file: `../vc2/gp-02-vc2-54.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-54.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:53:14: error: cannot find file: `../vc2/gp-02-vc2-63.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-63.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:54:14: error: cannot find file: `../vc2/gp-02-vc2-16.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-16.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:55:14: error: cannot find file: `../vc2/gp-02-vc2-239.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-239.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:56:14: error: cannot find file: `../vc2/gp-02-vc2-17.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-17.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:57:14: error: cannot find file: `../vc2/gp-02-vc2-9.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-9.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:58:14: error: cannot find file: `../vc2/gp-02-vc2-256.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-256.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:59:14: error: cannot find file: `../vc2/gp-02-vc2-62.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-62.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:60:14: error: cannot find file: `../vc2/gp-02-vc2-4.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-4.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:61:14: error: cannot find file: `../vc2/gp-02-vc2-3.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-3.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:62:14: error: cannot find file: `../vc2/gp-02-vc2-41.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-41.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:63:14: error: cannot find file: `../vc2/gp-02-vc2-80.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-80.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:64:14: error: cannot find file: `../vc2/gp-02-vc2-145.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-145.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:65:14: error: cannot find file: `../vc2/gp-02-vc2-72.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-72.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:66:14: error: cannot find file: `../vc2/gp-02-vc2-211.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-211.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:67:14: error: cannot find file: `../vc2/gp-02-vc2-157.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-157.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:68:14: error: cannot find file: `../vc2/gp-02-vc2-170.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-170.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:69:14: error: cannot find file: `../vc2/gp-02-vc2-193.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-193.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:70:14: error: cannot find file: `../vc2/gp-02-vc2-152.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-152.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:78:14: error: cannot find file: `../voice_option.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../voice_option.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:79:14: error: cannot find file: `../rh/gp-02-rh-42.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-42.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:80:14: error: cannot find file: `../rh/gp-02-rh-109.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-109.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:81:14: error: cannot find file: `../rh/gp-02-rh-132.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-132.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:82:14: error: cannot find file: `../rh/gp-02-rh-118.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-118.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:83:14: error: cannot find file: `../rh/gp-02-rh-212.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-212.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:84:14: error: cannot find file: `../rh/gp-02-rh-54.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-54.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:85:14: error: cannot find file: `../rh/gp-02-rh-63.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-63.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:86:14: error: cannot find file: `../rh/gp-02-rh-16.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-16.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:87:14: error: cannot find file: `../rh/gp-02-rh-239.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-239.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:88:14: error: cannot find file: `../rh/gp-02-rh-17.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-17.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:89:14: error: cannot find file: `../rh/gp-02-rh-9.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-9.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:90:14: error: cannot find file: `../rh/gp-02-rh-256.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-256.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:91:14: error: cannot find file: `../rh/gp-02-rh-62.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-62.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:92:14: error: cannot find file: `../rh/gp-02-rh-4.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-4.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:93:14: error: cannot find file: `../rh/gp-02-rh-3.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-3.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:94:14: error: cannot find file: `../rh/gp-02-rh-41.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-41.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:95:14: error: cannot find file: `../rh/gp-02-rh-80.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-80.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:96:14: error: cannot find file: `../rh/gp-02-rh-145.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-145.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:97:14: error: cannot find file: `../rh/gp-02-rh-72.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-72.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:98:14: error: cannot find file: `../rh/gp-02-rh-211.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-211.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:99:14: error: cannot find file: `../rh/gp-02-rh-157.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-157.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:100:14: error: cannot find file: `../rh/gp-02-rh-170.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-170.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:101:14: error: cannot find file: `../rh/gp-02-rh-193.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-193.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:102:14: error: cannot find file: `../rh/gp-02-rh-152.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-152.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:105:14: error: cannot find file: `../bassline_option.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../bassline_option.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:106:14: error: cannot find file: `../lh/gp-02-lh-42.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-42.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:107:14: error: cannot find file: `../lh/gp-02-lh-109.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-109.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:108:14: error: cannot find file: `../lh/gp-02-lh-132.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-132.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:109:14: error: cannot find file: `../lh/gp-02-lh-118.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-118.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:110:14: error: cannot find file: `../lh/gp-02-lh-212.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-212.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:111:14: error: cannot find file: `../lh/gp-02-lh-54.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-54.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:112:14: error: cannot find file: `../lh/gp-02-lh-63.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-63.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:113:14: error: cannot find file: `../lh/gp-02-lh-16.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-16.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:114:14: error: cannot find file: `../lh/gp-02-lh-239.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-239.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:115:14: error: cannot find file: `../lh/gp-02-lh-17.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-17.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:116:14: error: cannot find file: `../lh/gp-02-lh-9.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-9.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:117:14: error: cannot find file: `../lh/gp-02-lh-256.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-256.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:118:14: error: cannot find file: `../lh/gp-02-lh-62.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-62.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:119:14: error: cannot find file: `../lh/gp-02-lh-4.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-4.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:120:14: error: cannot find file: `../lh/gp-02-lh-3.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-3.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:121:14: error: cannot find file: `../lh/gp-02-lh-41.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-41.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:122:14: error: cannot find file: `../lh/gp-02-lh-80.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-80.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:123:14: error: cannot find file: `../lh/gp-02-lh-145.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-145.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:124:14: error: cannot find file: `../lh/gp-02-lh-72.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-72.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:125:14: error: cannot find file: `../lh/gp-02-lh-211.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-211.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:126:14: error: cannot find file: `../lh/gp-02-lh-157.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-157.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:127:14: error: cannot find file: `../lh/gp-02-lh-170.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-170.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:128:14: error: cannot find file: `../lh/gp-02-lh-193.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-193.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:129:14: error: cannot find file: `../lh/gp-02-lh-152.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-152.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:134:14: error: cannot find file: `../layout_settings.ly'
+(search path: `/tmp/tmpl6j8e7fg:/home/user/Documents/Resounding-Libraries/Un musico meccanico - Prehistory AI/python-code:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../layout_settings.ly"
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:1: warning: no \version statement found, please add
+
+\version "2.22.1"
+
+for future compatibility
+Interpreting music...
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:8:5: warning: skipping zero-duration score
+    
+    <<
+/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly:8:5: warning: to suppress this, consider adding a spacer rest
+    
+    <<
+fatal error: failed files: "/tmp/tmpl6j8e7fg/2024-03-25T13-57-23-976557-58f6bf0.ly"

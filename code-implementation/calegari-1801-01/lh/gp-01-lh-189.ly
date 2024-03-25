@@ -1,0 +1,1 @@
+\relative c{<c, c'>4^\f r <d d'> r}

@@ -1,0 +1,1 @@
+\relative c''{r8 <g b d>[<g b d> < g b d> ] r8 <g b d>[<g b d> <g b d> ]}

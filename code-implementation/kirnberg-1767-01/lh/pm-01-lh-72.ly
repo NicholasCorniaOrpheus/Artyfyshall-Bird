@@ -1,0 +1,1 @@
+\relative c{d8[\tuplet3/2{d'16 a fs]} d8[d] d4}

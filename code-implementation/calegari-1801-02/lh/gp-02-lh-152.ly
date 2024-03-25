@@ -1,0 +1,1 @@
+\relative c{a4 <a a'> <a a'> \bar"||" \partial 4 s}

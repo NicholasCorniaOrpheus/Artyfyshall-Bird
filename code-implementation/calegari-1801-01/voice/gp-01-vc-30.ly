@@ -1,0 +1,1 @@
+\relative c''{\partial 4 d8. d16 \bar"|" e4. e8 c4 b }

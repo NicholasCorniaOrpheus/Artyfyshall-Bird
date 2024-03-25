@@ -1,0 +1,1 @@
+\relative c''{e4. fs8 e8[d] cs[b]}

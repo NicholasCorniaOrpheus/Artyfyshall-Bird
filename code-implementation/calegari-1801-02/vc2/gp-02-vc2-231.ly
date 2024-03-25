@@ -1,0 +1,1 @@
+\relative c''{gs4 r \tuplet3/2{e'8([ds! cs])} \tuplet3/2{cs8([b a])}}

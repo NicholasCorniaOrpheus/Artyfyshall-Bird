@@ -1,0 +1,1 @@
+\relative c''{gs4 r r e'8. cs16}

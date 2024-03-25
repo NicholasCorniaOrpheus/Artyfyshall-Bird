@@ -1,0 +1,1 @@
+\relative c''{gs8.\fermata [(a16) b8. a16] gs4 r}

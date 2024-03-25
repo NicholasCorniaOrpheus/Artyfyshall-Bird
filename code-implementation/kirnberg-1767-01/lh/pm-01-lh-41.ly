@@ -1,0 +1,1 @@
+\relative c{r8 \tuplet3/2{a'16[e cs]} a8[a'] b,4}

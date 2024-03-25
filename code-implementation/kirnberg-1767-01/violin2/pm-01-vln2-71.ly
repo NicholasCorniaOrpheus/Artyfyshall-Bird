@@ -1,0 +1,1 @@
+\relative c''{g8[d' b g d b]}

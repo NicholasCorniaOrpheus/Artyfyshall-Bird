@@ -1,0 +1,1 @@
+\relative c{<e gs>4 <e gs> <e gs> \bar"||" s4}

@@ -1,0 +1,1 @@
+\relative c{<c c'>4.^\f r8\fermata d'8 r d, r}

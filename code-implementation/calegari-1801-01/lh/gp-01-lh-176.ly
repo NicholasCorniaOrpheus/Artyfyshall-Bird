@@ -1,0 +1,1 @@
+\relative c{\partial 4 r4 r4 <fs, fs'> r <g g'>}

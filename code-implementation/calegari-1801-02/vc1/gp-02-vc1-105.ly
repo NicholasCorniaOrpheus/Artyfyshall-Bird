@@ -1,0 +1,1 @@
+\relative c''{fs32[e d8.] d4 d32[cs b8.] b4}

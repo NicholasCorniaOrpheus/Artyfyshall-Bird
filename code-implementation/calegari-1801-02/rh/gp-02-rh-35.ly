@@ -1,0 +1,1 @@
+\relative c''{<b d>4 <a cs> <gs b> <gs b>}

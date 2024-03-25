@@ -1,0 +1,1 @@
+\relative c''{fs,16[a' d,, fs'] g,[b' e,, g'] cs,,[e' a,, g'']}

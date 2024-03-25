@@ -1,0 +1,1 @@
+\relative c''{a4 r fs'4. e8}

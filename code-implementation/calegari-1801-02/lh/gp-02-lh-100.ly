@@ -1,0 +1,1 @@
+\relative c{<a a'>4 r b'8 r b, r}

@@ -1,0 +1,1 @@
+\relative c''{a4. fs8 d4 d'8. d16}

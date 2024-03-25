@@ -1,0 +1,1 @@
+\relative c{<<{c'4^\f e8[c] b4} \\ {g2.} >> \bar"||" s4}

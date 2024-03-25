@@ -1,0 +1,1 @@
+\relative c''{\partial 4 r4 <<{<gs b d>2 <a cs>2} \\ {e1}>>}

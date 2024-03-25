@@ -1,0 +1,1 @@
+\relative c''{e,8[fs16 gs a b cs ds!] e4 \bar"||" \partial 4 s4}

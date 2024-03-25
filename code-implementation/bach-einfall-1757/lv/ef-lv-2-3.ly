@@ -1,0 +1,1 @@
+~\relative c{c'8 c b a b b a g}

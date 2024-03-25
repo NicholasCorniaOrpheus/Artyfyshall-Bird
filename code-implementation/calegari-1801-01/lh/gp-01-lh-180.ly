@@ -1,0 +1,3 @@
+\relative c{
+  g'4 r g, r
+}

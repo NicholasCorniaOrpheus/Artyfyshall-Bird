@@ -1,0 +1,1 @@
+\relative c{<<{e'2} \\ {gs,4 a} >> <e e'>4 <e e'>}

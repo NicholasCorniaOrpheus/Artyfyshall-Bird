@@ -1,0 +1,1 @@
+\relative c''{a[e] cs[e] a[gs] a[b]}

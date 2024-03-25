@@ -1,0 +1,9 @@
+
+}  
+    >>
+    
+    %Piano part
+    \context PianoStaff \with { instrumentName = "Piano"}
+    <<
+       \context Staff = "rh" {
+         \include "voice_option.ly"

@@ -1,0 +1,1 @@
+\relative c{<gs gs'>4 <a a'>8. [<a a'>16] <a a'>4 r}

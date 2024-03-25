@@ -1,0 +1,1 @@
+\relative c''{g16[b d c] b[c a b] g4 \bar"||" s4}

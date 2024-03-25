@@ -1,0 +1,1 @@
+\relative c{<d, d'>^\f r4 <e e'>4}

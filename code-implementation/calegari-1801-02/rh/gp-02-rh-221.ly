@@ -1,0 +1,1 @@
+\relative c''{<<{<gs b>2 <a cs>} \\ {e1} >>}

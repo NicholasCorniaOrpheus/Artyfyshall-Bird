@@ -1,0 +1,1 @@
+\relative c''{\partial 4 <fs, d'>8. [<g e'>16] \bar"|" <a c>2 <g b>}

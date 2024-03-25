@@ -1,0 +1,1 @@
+\relative c''{<d, fs a d>4\fermata r4 <b' d> <a c>}

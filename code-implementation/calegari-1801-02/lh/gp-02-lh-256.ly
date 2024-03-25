@@ -1,0 +1,1 @@
+\relative c{\partial 4 r4 fs,8^\f [ as! cs fs] fs,[fs' d b]}

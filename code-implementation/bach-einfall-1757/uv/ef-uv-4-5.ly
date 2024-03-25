@@ -1,0 +1,1 @@
+~\relative c''{f4 f f8 e d c}

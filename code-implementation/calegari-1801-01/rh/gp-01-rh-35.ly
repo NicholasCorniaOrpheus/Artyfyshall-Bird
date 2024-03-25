@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{g8[(c e)]} \tuplet3/2{g,8[(c e)]} \tuplet3/2{g,8[(c e)]} \tuplet3/2{g,8[(c e)]}  }

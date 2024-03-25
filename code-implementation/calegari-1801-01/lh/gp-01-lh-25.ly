@@ -1,0 +1,1 @@
+\relative c{\partial 4 <d, d'>4^\f \bar"|" <e e'>2 <fs fs'>4^\p <g g'>}

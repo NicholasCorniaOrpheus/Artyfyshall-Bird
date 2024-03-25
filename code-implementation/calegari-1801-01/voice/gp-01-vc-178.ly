@@ -1,0 +1,1 @@
+\relative c''{\partial 4 d8. b16 \bar"|" gs!8[e] gs[b] b[c16(d c8)] b8}

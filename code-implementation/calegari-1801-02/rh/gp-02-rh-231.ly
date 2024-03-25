@@ -1,0 +1,1 @@
+\relative c''{r8 <gs b>16[<a cs>] <b ds!>8[<cs e>16 <ds fs>] \tuplet3/2{<e gs>8[<ds fs> <cs e>]} \tuplet3/2{<cs e>[<b ds!> <a cs>]}}

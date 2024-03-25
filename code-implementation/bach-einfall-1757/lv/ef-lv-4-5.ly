@@ -1,0 +1,1 @@
+\relative c{g'8 d' c b c4 c}

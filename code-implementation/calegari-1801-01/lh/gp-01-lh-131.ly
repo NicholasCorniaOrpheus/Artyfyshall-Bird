@@ -1,0 +1,1 @@
+\relative c{<c, c'>4.^\fp c''8 d4 d,}

@@ -1,0 +1,1 @@
+\relative c''{<gs b>[e] <a cs>[e] <gs b>[e] <a cs>[e]}

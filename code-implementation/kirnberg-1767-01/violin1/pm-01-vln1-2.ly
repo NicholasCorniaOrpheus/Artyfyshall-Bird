@@ -1,0 +1,1 @@
+\relative c''{fs,16-![fs'(e fs)] g8.([a32 b]) a4}

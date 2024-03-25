@@ -1,0 +1,1 @@
+\relative c''{<a c>4 <d, fs a>8. [<d fs a>16] <d fs a>4 r}

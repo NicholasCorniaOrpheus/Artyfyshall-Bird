@@ -1,0 +1,1 @@
+\relative c{<g' b>2^\f g,4 \bar"||" s4}

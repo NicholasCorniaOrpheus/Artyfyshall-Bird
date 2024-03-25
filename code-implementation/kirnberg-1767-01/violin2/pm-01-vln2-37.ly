@@ -1,0 +1,1 @@
+\relative c''{d,8[\tuplet3/2{fs16 g a}] d,8[\tuplet3/2{a'16 b c!}] d,8[a']}

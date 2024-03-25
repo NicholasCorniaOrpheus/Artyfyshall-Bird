@@ -1,0 +1,1 @@
+\relative c''{a8 fs'4 d cs8}

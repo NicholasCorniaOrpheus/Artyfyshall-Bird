@@ -1,0 +1,5 @@
+
+}
+        
+        \context Staff = "lh" {
+         \include"bassline_option.ly"

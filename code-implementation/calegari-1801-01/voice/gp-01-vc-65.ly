@@ -1,0 +1,1 @@
+\relative c''{d4 \tuplet3/2{e8[(c a)]} g4 a}

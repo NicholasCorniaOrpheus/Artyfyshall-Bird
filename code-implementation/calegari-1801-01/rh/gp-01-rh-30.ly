@@ -1,0 +1,1 @@
+\relative c''{\partial 4 <fs, d'>4 \bar"|" <<{e'2 c4 b} \\ {g8[gs!] <<{a2 s4} \\ {s4 d,2} >> } >>}

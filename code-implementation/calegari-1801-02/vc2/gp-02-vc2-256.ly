@@ -1,0 +1,1 @@
+\relative c''{\partial 4 cs8. cs16 cs4. as!8 b8[cs16 d cs8] b8}
