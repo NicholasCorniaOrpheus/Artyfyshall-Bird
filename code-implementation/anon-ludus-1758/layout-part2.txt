@@ -1,0 +1,11 @@
+
+} 
+
+>> 
+
+ %Lower voice part
+    \context Staff = "lower" \with { instrumentName = "Basse" }
+    
+    <<
+    \set Staff.midiInstrument =#"cello" {
+    \include "bassline_option.ly"

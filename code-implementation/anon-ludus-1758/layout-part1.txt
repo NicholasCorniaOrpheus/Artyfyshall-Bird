@@ -1,0 +1,12 @@
+\include "paper_settings.ly"
+
+\score{
+ << 
+ \new ChoirStaff 
+ <<
+    %Upper voice part
+    \context Staff = "upper" \with { instrumentName = "Dessus" }
+    
+    <<
+    \set Staff.midiInstrument =#"violin" {
+    \include "voice_option.ly"

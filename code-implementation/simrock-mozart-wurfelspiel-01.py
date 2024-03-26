@@ -1,6 +1,7 @@
 # Libraries
-import abjad as abjad
-import random as random
+import abjad
+import random
+import os
 
 # Measures
 
@@ -319,13 +320,21 @@ def make_subtitle(choices):
     string = [str(_) for _ in choices]
     string = "-".join(string)
     string = f"[{string}]"
-    string = r'\header { subtitle = \markup "' + string + '" }'
+    string = r'\header { piece = \markup "' + string + '" }'
     string += "\n"
     return string
 
 
 # Preamble
-preamble = r"""#(set-global-staff-size 18)
+preamble = r"""
+
+
+\version "2.22.1"
+\language "english"
+
+\include "articulate.ly"
+
+#(set-global-staff-size 19)
 
 \paper {
  top-system-spacing.basic-distance = #10
@@ -345,23 +354,31 @@ right-margin = 1.8 \cm
 
 }
 
+
+
 \header {
-    composer = \markup { Artyfyshall Byrd }
-    title = \markup { Ein Musikalisches Wuerfelspiel }
+    composer = \markup { "Artyfyshall Byrd" }
+    title = \markup { "Walzer oder Schleifer mit zwei Wuerfln zu componieren ... []" }
+    subtitle = \markup {"Bonn, c. 1790"}
     copyright = \markup{ "Orpheus Institute, Resounding Libraries" }
     tagline = \markup {" Who’s Afraid of the Artyfyshall Byrd?, 2023 "}
 }
 
-\midi{\tempo 2 = 120}
+%\include "oll-core/package.ily"
+%\loadPackage lilypond-export
 
-\layout{
+%opts.exporter = #exportMusicXML
+
+\midi{\tempo 4. = 60}   
+
+\layout {
   \context {
     \Score
     \override StaffGrouper.staff-staff-spacing.padding = #5
     \override StaffGrouper.staff-staff-spacing.basic-distance = #5
     \override StaffGrouper.staffgroup-staff-spacing.basic-distance = #5
 \override StaffGrouper.staffgroup-staff-spacing.padding = #5
-  \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/4)
+  \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/16)
 
   }
   \context { \Voice \override NoteHead.style = #'baroque }
@@ -377,6 +394,7 @@ right-margin = 1.8 \cm
     \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.basic-distance = #10
     }
   
+  %\FileExport #opts
   
 }
 
@@ -393,9 +411,29 @@ x=random.choice(range(1,1000))
 random.seed(x)
 choices = [random.randint(1, _) for _ in counts]
 
+r_string = ""
+for i in range(len(choices)):
+    r_string+=str(choices[i])
+    if i<(len(choices)-1):
+        r_string+="-"
+
+print("Random Sequence:",r_string)
+
 # Generation of the score
 score = make_score(choices)
 subtitle = make_subtitle(choices)
 lilypond_file = abjad.LilyPondFile([preamble, subtitle, score])
-abjad.show(lilypond_file, output_directory="./simrock-mozart-output/", name="output")
+abjad.show(lilypond_file, output_directory="./simrock-mozart-1790-01/temp")
+
+#rename the file(s)
+source_dir = './simrock-mozart-1790-01/temp/'
+target_dir = './simrock-mozart-1790-01/output/'
+    
+file_names = os.listdir(source_dir)
+    
+for file_name in file_names:
+    # exclude .log files
+    if file_name[-3:] =='.ly':
+        os.rename(source_dir+file_name,target_dir+"ws-01-out-"+r_string+".ly")
+
 
