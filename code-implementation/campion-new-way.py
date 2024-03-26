@@ -70,11 +70,21 @@ def simplify_more(p):
 		if p._get_alteration() == 2:
 			p=p._apply_accidental(accidental="flat")
 			p=abjad.NamedPitch(p+1)
+	# gf to fs
+	if p._get_diatonic_pc_number() == 4:
+		if p._get_alteration() == -1:
+			p=p._apply_accidental(accidental="sharp")
+			p=abjad.NamedPitch(p-1)
 	# eff to d
 	if p._get_diatonic_pc_number() == 2:
 		if p._get_alteration() == -2:
 			p=p._apply_accidental(accidental="sharp")
-			p=abjad.NamedPitch(p-1)	
+			p=abjad.NamedPitch(p-1)
+	# css to d
+	if p._get_diatonic_pc_number() == 0:
+		if p._get_alteration() == 2:
+			p=p._apply_accidental(accidental="flat")
+			p=abjad.NamedPitch(p+1)	
 	return p
 	
 
@@ -175,11 +185,11 @@ def generate_uppervoice_pitch(bm,interval,direction,um,um_pos):
 				return um
 			else:
 				if direction == "-":
-					um+=-1
+					um=um-1
 					um=simplify_more(um)
 					return um
 				else: 
-					um+=1
+					um=um+1
 					um=simplify_more(um)
 					return um
 				
@@ -226,9 +236,9 @@ def generate_uppervoicemelodies(bm,bi,um):
 	um_position[0]=abjad.NamedInterval(um_position[0]).number
 	for i in range(len(bm)-1):
 		
-		print ("Consonance:",i,um_position[i])
+		#print ("Consonance:",i,um_position[i])
 		b_int = abjad.NamedIntervalClass(bi[i]).number
-		print ("Bass interval:",b_int)
+		#print ("Bass interval:",b_int)
 		#clockwise conditions
 		# ascending 2nd - descending 7th (8,5,3 descend by 2nd,3nd,2rd)
 		if (b_int == 2 or b_int == -7 ):
@@ -293,10 +303,10 @@ def generate_uppervoicemelodies(bm,bi,um):
 				um.append(generate_uppervoice_pitch(bm[i+1],2,"-",um[-1],um_position[i+1]))
 			elif um_position[i] == 5:
 				um_position[i+1]= 8
-				um.append(generate_uppervoice_pitch(bm[i+1],2,"-",um[-1],um_position[i+1]))
+				um.append(generate_uppervoice_pitch(bm[i+1],1,"x",um[-1],um_position[i+1]))
 			else:
 				um_position[i+1]=5
-				um.append(generate_uppervoice_pitch(bm[i+1],1,"x",um[-1],um_position[i+1]))
+				um.append(generate_uppervoice_pitch(bm[i+1],2,"-",um[-1],um_position[i+1]))
 		
 			#stable condition	
 		if b_int == 1:
