@@ -1,8 +1,6 @@
-import music21 as m21
-import random as random
+import random
 import abjad
 import os
-#import numpy as np
 
 #Algorithmic implementation
 
@@ -119,11 +117,11 @@ def generation_walse_tables(m):
 
 def search_letter_tabella2(x,row,t2):
 	row_t2 = t2[row]
-	print("Current value:",x)
-	print("Current row:",row_t2)
+	#print("Current value:",x)
+	#print("Current row:",row_t2)
 	for i in range(5):
 		for j in range(3):
-			print("i,j,row_t2[i][j]",i,j,row_t2[i][j])
+			#print("i,j,row_t2[i][j]",i,j,row_t2[i][j])
 			if row_t2[i][j] == x:
 				return i
 
@@ -140,7 +138,7 @@ def generate_parte_string(p,t2):
 		for j in range(5):
 				#print("current value parte matrix:",p[i][j+1])
 				parte_s[i][j]=search_letter_tabella2(p[i][j+1],column_a[i],t2)
-				print("curr. output:",parte_s[i][j])
+				#print("curr. output:",parte_s[i][j])
 
 	return parte_s,column_a
 
@@ -182,10 +180,10 @@ def generate_fragment_list(ps,cla,tm,choices,parte_name):
 		# Traslation parte_string into symbols
 		for i in range(8):
 			tm_row = tm[cla[i]]
-			#print ("Current column value:",cla[i])
-			#print ("Current tabella:",tm_row)
+			print ("Current column value:",cla[i])
+			print ("Current tabella:",tm_row)
 			for j in range(5):
-				#print ("Current part string:",ps[i][j])
+				print ("Current part string:",ps[i][j])
 				music_output.writelines(appendmeasure_fragment(ps[i][j],i,tm_row)+'\n')	
 	return music_output
 
@@ -421,8 +419,8 @@ tavola_musicale = {
 [r"""ef''!8""","x",r"""b'8""",r"""c''8""",r"""ef''!8""","x","x",r"""\bar".|:" """]
 ],
 
-20: [["x",r"""g''16[fs!'']""","x",r"""c''16[ef!'']""",r"""c''16.[b'32]""",r"""g''16[fs!'']""",r"""\bar"|" """,r"""c''4"""],
-[r"""c''16.[b'32]""",r"""g''16[ef!'']""",r"""b'16.[c''32]""","x",r"""c''8""",r"""g''16[ef!'']""",r"""b'16.[c''32]""",r"""r8"""],
+20: [["x",r"""g''16[fs''!]""","x",r"""c''16[ef''!]""",r"""c''16.[b'32]""",r"""g''16[fs''!]""",r"""\bar"|" """,r"""c''4"""],
+[r"""c''16.[b'32]""",r"""g''16[ef''!]""",r"""b'16.[c''32]""","x",r"""c''8""",r"""g''16[ef''!]""",r"""b'16.[c''32]""",r"""r8"""],
 [r"""c''8""",r"""d''16[c'']""",r"""d''16.[g'32]""",r"""g''16[e'']""","x",r"""d''16[c'']""",r"""d''16.[g'32]""",r"""\bar":|." """],
 [r"""ef''!8""","x",r"""a'16.[b'32]""",r"""c''8""",r"""ef''!8""","x",r"""a'16.[b'32]""",r"""\bar".|:" """],
 [r"""\clef "treble" """,r"""\bar"|" """,r"""\bar"|" """,r"""\bar"|" """,r"""\bar"|" """,r"""\bar"|" ""","x",r"""\bar"|" """]
@@ -479,8 +477,8 @@ tavola_musicale = {
 
 # generation initial sequence of n integers:
 n = 10
-sequence = import_random_sequence(n)
-#sequence = [1,10,25,34,56,89,97,103,121,142]
+#sequence = import_random_sequence(n)
+sequence = [1,10,25,34,56,89,97,103,121,142]
 sequence_mod9 = [] 
 r_string=""
 for i in range(len(sequence)):
@@ -488,6 +486,23 @@ for i in range(len(sequence)):
 	r_string+=str(sequence_mod9[i])
 	if i<(len(sequence)-1):
 		r_string+="-"
+
+# Check integrity tables
+
+#Integrity tabella 2
+
+#for i in range(len(tabella2)):
+	#row = tabella2[i+1]
+	#print ("row",i+1,":",len(row))
+
+# Integrity tabella_musicale
+
+#for i in range(len(tavola_musicale)):
+	row = tavola_musicale[i+1]
+	#print ("row",i+1,":",len(row))
+	#for j in range(len(row)):
+		#print ("elements",j,len(row[j]))
+
 
 print("Initial sequence:",sequence)
 print("Initial sequence mod9:",sequence_mod9)
@@ -506,8 +521,11 @@ parte1_s,column1_a=generate_parte_string(parte1,tabella2)
 parte2_s,column2_a=generate_parte_string(parte2,tabella2)
 parte3_s,column3_a=generate_parte_string(parte3,tabella2)
 
-#print("parte3 string:",parte3_s)
-#print("column3 string:",column3_a)
+print("Parte1 string:",parte1_s)
+print("Parte2 string:",parte2_s)
+print("Parte3 string:",parte3_s)
+
+
 
 #Input parte_string, column_a, tabella musicale
 music_fragments = [[0] for i in range(3)]

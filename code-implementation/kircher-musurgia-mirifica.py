@@ -1,5 +1,6 @@
 import abjad
 import os
+import random
 
 mode_to_intervals = {
 	# modern harmonic minor on d
@@ -44,6 +45,53 @@ tonics = {
 	"Hypo-iastius": "f"
 }
 
+def simplify_more(p):
+	# Improvided version of simplify function in abjad
+	#Input abjad.NamedPitch
+	# transforms cf ->b and ff -> e
+
+	p = p.simplify()
+	# bs to c and bff to a
+	if p._get_diatonic_pc_number() == 6:
+		if p._get_alteration() == 1:
+			p=p._apply_accidental(accidental="flat")
+			p=abjad.NamedPitch(p+1)
+		if p._get_alteration() == -2:
+			p=p._apply_accidental(accidental="sharp")
+			p=abjad.NamedPitch(p-1)
+	# cf to b and cff to bf
+	if p._get_diatonic_pc_number() == 0:
+		if p._get_alteration() == -1:
+			p=p._apply_accidental(accidental="sharp")
+			p=abjad.NamedPitch(p-1)
+		if p._get_alteration() == -2:
+			p=p._apply_accidental(accidental="sharp")
+			p=abjad.NamedPitch(p-1)
+	# ff to e and fss to g
+	if p._get_diatonic_pc_number() == 3:
+		if p._get_alteration() == -1:
+			p=p._apply_accidental(accidental="sharp")
+			p=abjad.NamedPitch(p-1)
+		if p._get_alteration() == 2:
+			p=p._apply_accidental(accidental="flat")
+			p=abjad.NamedPitch(p+1)
+	# df to cs
+	if p._get_diatonic_pc_number() == 1:
+		if p._get_alteration() == -1:
+			p=p._apply_accidental(accidental="sharp")
+			p=abjad.NamedPitch(p-1)	
+	# af to gs
+	if p._get_diatonic_pc_number() == 5:
+		if p._get_alteration() == -1:
+			p=p._apply_accidental(accidental="sharp")
+			p=abjad.NamedPitch(p-1)	
+	# eff to d
+	if p._get_diatonic_pc_number() == 2:
+		if p._get_alteration() == -2:
+			p=p._apply_accidental(accidental="sharp")
+			p=abjad.NamedPitch(p-1)	
+	return p
+
 def make_scale(t,intervals):
 	#Input tonic note as string
 	# intervals as string
@@ -54,13 +102,14 @@ def make_scale(t,intervals):
 	pitches.append(pitch)
 	for interval in intervals:
 		pitch = pitch + interval
-		pitches.append(pitch)
+		pitches.append(simplify_more(pitch))
 	return pitches
 
 
 
 # Setting the mode
-mode_name = "Hypo-mixolydius"
+#mode_name = "Hypo-mixolydius"
+mode_name = "Phrygius"
 mode = make_scale(tonics[mode_name],mode_to_intervals[mode_name])
 
 print("Mode:",mode)
@@ -79,7 +128,31 @@ pinax_simplex = {
 ],
 [
 [5,5,5,5,5,5],[8,8,8,7,8,8],[3,3,3,2,3,3],[1,1,1,5,1,1]
-]
+],
+[
+[8,2,3,6,5,5],[5,7,8,3,7,8],[3,4,8,4,2,3],[8,7,6,4,5,1]
+],
+[
+[3,2,3,2,1,7],[8,7,5,7,5,5],[5,5,5,4,3,2],[1,5,3,4,8,5]
+],
+[
+[3,2,3,4,5,5],[8,7,8,2,7,7],[5,5,5,2,3,3],[8,5,1,7,3,3]
+],
+[
+[5,5,5,4,5,5],[8,8,7,8,7,8],[3,3,2,1,2,3],[1,1,5,6,5,1]
+],
+[
+[5,5,5,5,5,5],[8,8,8,7,8,8],[3,3,3,2,3,3],[8,8,8,5,8,8]
+],
+[
+[5,5,5,5,4,4],[7,7,7,7,7,7],[3,3,3,3,2,2],[3,3,3,3,7,7]
+],
+[
+[5,5,4,4,5,5],[7,7,6,8,7,8],[3,3,1,1,2,3],[3,3,4,6,5,1]
+],
+[
+[3,4,5,4,2,3],[8,7,7,6,5,5],[5,4,3,8,7,8],[1,2,3,4,5,1]
+],
 ]
 	
 } 
@@ -89,8 +162,22 @@ notae_temporis = {
 4: [
 [
 [(3,2),(1,2),(1,2),(1,2),(1,1),(1,1)]
-]
-
+],
+[
+[(3,4),(1,4),(1,2),(1,2),(1,1),(1,1)]
+],
+[
+[(1,2),(1,2),(1,2),(1,2),(1,1),(1,1)]
+],
+[
+[(1,4),(1,4),(1,4),(1,4),(1,1),(1,1)]
+],
+[
+[(3,8),(1,8),(1,4),(1,4),(1,2),(1,2)]
+],
+[
+["r2",(1,1),(1,2),(1,2),(1,2),(1,1),(1,1)]
+],
 ]
 
 }
@@ -99,26 +186,30 @@ notae_temporis = {
 n = 4
 voice = [abjad.Staff() for _ in range(n)]
 
+choice = random.choice(range(0,9))
+
+print ("random choice:",choice)
+
 for i in range(len(pinax_simplex[4][0][0])):
 	for j in range(n):
 		if j == 0:
 			#cantus
-			pitch = mode[pinax_simplex[4][1][j][i]-1] +"P8"
+			pitch = mode[pinax_simplex[4][choice][j][i]-1] +"P8"
 			note = abjad.Note(pitch,notae_temporis[4][0][0][i])
 			voice[0].append(note)
 		if j == 3:
 			#bassus
 			if pinax_simplex[4][1][j][i] == 8:
-				pitch = mode[pinax_simplex[4][1][j][i]-1] -"P8"
+				pitch = mode[pinax_simplex[4][choice][j][i]-1] -"P8"
 				note = abjad.Note(pitch,notae_temporis[4][0][0][i])
 				voice[j].append(note)
 			else: 
-				pitch = mode[pinax_simplex[4][1][j][i]-1]
+				pitch = mode[pinax_simplex[4][choice][j][i]-1]
 				note = abjad.Note(pitch,notae_temporis[4][0][0][i])
 				voice[j].append(note)
 		if (j>0 and j<3):
 			#altus, tenor
-			pitch = mode[pinax_simplex[4][1][j][i]-1]
+			pitch = mode[pinax_simplex[4][choice][j][i]-1]
 			note = abjad.Note(pitch,notae_temporis[4][0][0][i])
 			voice[j].append(note)
 

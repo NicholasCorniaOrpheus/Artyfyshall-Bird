@@ -1,0 +1,41 @@
+GNU LilyPond 2.22.1
+Changing working directory to: `/tmp/tmp91w4ox99'
+Processing `/tmp/tmp91w4ox99/2024-03-26T09-56-54-032254-62411a6.ly'
+Parsing...
+/tmp/tmp91w4ox99/2024-03-26T09-56-54-032254-62411a6.ly:1:10: error: cannot find file: `../paper_settings.ly'
+(search path: `/tmp/tmp91w4ox99:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+\include 
+         "../paper_settings.ly" 
+/tmp/tmp91w4ox99/2024-03-26T09-56-54-032254-62411a6.ly:13:14: error: cannot find file: `../voice_option.ly'
+(search path: `/tmp/tmp91w4ox99:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../voice_option.ly"
+/tmp/tmp91w4ox99/2024-03-26T09-56-54-032254-62411a6.ly:16:14: error: cannot find file: `../parte1/mw-01-3-6-3-8-7-2-0-1-7-8.ly'
+(search path: `/tmp/tmp91w4ox99:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../parte1/mw-01-3-6-3-8-7-2-0-1-7-8.ly" 
+/tmp/tmp91w4ox99/2024-03-26T09-56-54-032254-62411a6.ly:20:14: error: cannot find file: `../parte2/mw-02-3-6-3-8-7-2-0-1-7-8.ly'
+(search path: `/tmp/tmp91w4ox99:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../parte2/mw-02-3-6-3-8-7-2-0-1-7-8.ly" 
+/tmp/tmp91w4ox99/2024-03-26T09-56-54-032254-62411a6.ly:24:14: error: cannot find file: `../parte3/mw-03-3-6-3-8-7-2-0-1-7-8.ly'
+(search path: `/tmp/tmp91w4ox99:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../parte3/mw-03-3-6-3-8-7-2-0-1-7-8.ly" 
+/tmp/tmp91w4ox99/2024-03-26T09-56-54-032254-62411a6.ly:29:14: error: cannot find file: `../layout_settings.ly'
+(search path: `/tmp/tmp91w4ox99:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../layout_settings.ly"
+/tmp/tmp91w4ox99/2024-03-26T09-56-54-032254-62411a6.ly:1: warning: no \version statement found, please add
+
+\version "2.22.1"
+
+for future compatibility
+Interpreting music...
+/tmp/tmp91w4ox99/2024-03-26T09-56-54-032254-62411a6.ly:8:5: warning: skipping zero-duration score
+    
+    <<
+/tmp/tmp91w4ox99/2024-03-26T09-56-54-032254-62411a6.ly:8:5: warning: to suppress this, consider adding a spacer rest
+    
+    <<
+fatal error: failed files: "/tmp/tmp91w4ox99/2024-03-26T09-56-54-032254-62411a6.ly"
