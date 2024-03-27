@@ -17,7 +17,85 @@ table_dM_part1 = {
 		117,111,190,195,195,190,195,81,113,
 		190,113,108,96,111,84,113,189,
 		117,84,189,111,91,114,193,114,
-		0,190,193,81,0,190,189,0,189]
+		0,190,193,81,0,190,189,0,189],
+	2: [114,103,113,190,73,113,117,113,
+		0,24,107,117,113,105,111,0,114,
+		83,190,189,107,108,107,108,107,117,
+		190,0,111,111,185,189,190,20,
+		190,0,189,114,190,0,185,
+		77,190,84,77,81,185,
+		193,107,78,193,193,185,193,
+		0,83,195,103,190,78,195,
+		83,78,185,190,78,190,0,195,
+		0,190,195,0,0,0,78],
+
+	3: [86,190,73,96,196,113,81,86,
+		83,190,86,105,100,105,117,
+		196,83,190,114,195,101,190,114,190,
+		114,0,114,117,113,190,101,111,
+		195,113,78,113,113,108,196,
+		98,113,114,193,190,195,193,196,
+		232,193,232,111,111,195,111,111,0,
+		105,111,114,196,108,196,108,113,105,
+		108,108,105,105,196,0,196,108,
+		111,0,196,196,111,0,0,0,196],
+
+	4: [77,77,198,198,107,77,77,0,198,
+		198,198,77,77,103,198,105,108,
+		107,108,108,0,193,98,196,
+		107,19,108,113,107,193,
+		111,95,0,198,198,111,
+		193,108,102,102,198,195,73,
+		196,102,0,193,105,185,193,105,
+		196,195,193,81,81,185,73,185,
+		107,195,73,185,185,185,73,
+		0,61,73,0,0,73],
+	# We reduced chords to the lower note (75/71 -> 71)
+	5: [114,71,75,75,71,75,117,105,
+		233,113,111,233,196,224,196,25,107,
+		228,189,113,224,111,223,71,193,
+		103,224,88,0,221,114,101,196,189,
+		196,223,185,193,218,196,0,81,111,
+		105,17,111,196,25,111,101,196,
+		108,101,114,108,196,217,108,
+		101,0,187,196,113,190,114,
+		215,196,101,0,0,196,111,0,
+		111,0,0,137,0,0,81,193],
+
+	6: [107,108,107,107,77,107,198,107,107,
+		103,19,111,105,198,105,77,117,
+		98,185,233,198,198,105,185,196,
+		185,91,101,230,107,107,103,
+		103,0,98,107,98,226,
+		103,103,196,111,105,114,198,
+		189,224,196,196,78,189,
+		107,189,196,100,78,195,195,
+		195,83,195,78,78,108,223,78,
+		78,0,190,78,190,195,190,218],
+
+	7: [119,114,105,61,73,91,189,103,111,
+		117,113,103,189,114,114,73,105,
+		103,114,193,196,84,113,189,193,189,
+		84,196,119,71,193,189,190,114,193,
+		189,84,108,0,83,193,113,111,
+		77,113,193,196,193,190,0,
+		108,190,190,114,113,103,100,0,
+		113,196,113,108,117,108,107,108,0,
+		111,107,108,0,193,190,108,190,
+		0,190,108,0,111,190,0,196],
+
+	8: [0,198,0,185,113,
+		198,0,0,44,0,0,
+		0,0,51,113,0,185,198,
+		198,0,51,0,198,51,198,213,
+		193,226,0,198,213,226,223,51,
+		215,185,224,193,233,215,224,213,
+		193,217,0,223,185,213,217,
+		223,215,185,213,0,221,51,
+		215,213,221,217,0,51,
+		0,51,0,217,51]
+
+
 
 
 }
@@ -35,17 +113,162 @@ table_am_part1 = {
 
 }
 
-measure_sequences = []
-for i in range(9):
-	sequence = []
-	j = i
-	while j < len(table_dM_part1[1]):
-		sequence.append(table_dM_part1[1][j])
-		j+=9
-	measure_sequences.append(sequence)
 
-print(measure_sequences)
 
+
+# Generation of pitch tables
+
+def simplify_more(p):
+	# Improvided version of simplify function in abjad
+	#Input abjad.NamedPitch
+	# transforms cf ->b and ff -> e
+
+	p = p.simplify()
+	# bs to c and bff to a
+	if p._get_diatonic_pc_number() == 6:
+		if p._get_alteration() == 1:
+			p=p._apply_accidental(accidental="flat")
+			p=abjad.NamedPitch(p+1)
+		if p._get_alteration() == -2:
+			p=p._apply_accidental(accidental="sharp")
+			p=abjad.NamedPitch(p-1)
+	# cf to b and cff to bf
+	if p._get_diatonic_pc_number() == 0:
+		if p._get_alteration() == -1:
+			p=p._apply_accidental(accidental="sharp")
+			p=abjad.NamedPitch(p-1)
+		if p._get_alteration() == -2:
+			p=p._apply_accidental(accidental="sharp")
+			p=abjad.NamedPitch(p-1)
+	# gf to fs
+	if p._get_diatonic_pc_number() == 4:
+		if p._get_alteration() == -1:
+			p=p._apply_accidental(accidental="sharp")
+			p=abjad.NamedPitch(p-1)
+	# ff to e and fss to g
+	if p._get_diatonic_pc_number() == 3:
+		if p._get_alteration() == -1:
+			p=p._apply_accidental(accidental="sharp")
+			p=abjad.NamedPitch(p-1)
+		if p._get_alteration() == 2:
+			p=p._apply_accidental(accidental="flat")
+			p=abjad.NamedPitch(p+1)
+	# df to cs
+	if p._get_diatonic_pc_number() == 1:
+		if p._get_alteration() == -1:
+			p=p._apply_accidental(accidental="sharp")
+			p=abjad.NamedPitch(p-1)	
+	# af to gs
+	if p._get_diatonic_pc_number() == 5:
+		if p._get_alteration() == -1:
+			p=p._apply_accidental(accidental="sharp")
+			p=abjad.NamedPitch(p-1)	
+	# eff to d
+	if p._get_diatonic_pc_number() == 2:
+		if p._get_alteration() == -2:
+			p=p._apply_accidental(accidental="sharp")
+			p=abjad.NamedPitch(p-1)	
+	return p
+
+def make_chromatic_sequence(s,e,d):
+	# s=start pitch, e=end pitch for the sequence
+	# d=duration expressed as (x,y) pair according to Abjad notation
+
+	pitches = []
+	notes = []
+	pitch = abjad.NamedPitch(s)
+	note = abjad.Note(pitch,d)
+	pitches.append(pitch)
+	notes.append(note)
+	while pitches[-1] < abjad.NamedPitch(e):
+		pitch = pitches[-1] +1
+		pitch = simplify_more(pitch)
+		pitches.append(pitch)
+		note = abjad.Note(pitch,d)
+		notes.append(note)
+
+	return notes
+
+def generate_musical_tables():
+	#this function generates the whole musical tables of pag. 6-7
+	# with notes ranging from n.1 to 233 
+	n = 1
+	table_m = []
+	#Violin pitches
+	# half notes:
+	notes = make_chromatic_sequence("g","b''",(1,2))
+	for i in range(len(notes)):
+		table_m.append([n,notes[i]])
+		n+=1
+	#dotted half notes:
+	notes = make_chromatic_sequence("g","b''",(3,4))
+	for i in range(len(notes)):
+		table_m.append([n,notes[i]])
+		n+=1
+	# quarter notes:
+	notes = make_chromatic_sequence("g","b''",(1,4))
+	for i in range(len(notes)):
+		table_m.append([n,notes[i]])
+		n+=1
+		if n == 80 :
+			table_m.append([n,abjad.Note("ds'4")])
+			n+=1
+
+	# eight notes:
+	notes = make_chromatic_sequence("g","b''",(1,8))
+	for i in range(len(notes)):
+		table_m.append([n,notes[i]])
+		n+=1
+		if n == 109 :
+			table_m.append([n,abjad.Note("ds'8")])
+			n+=1
+		if n == 116 :
+			table_m.append([n,abjad.Note("af''8")])
+			n+=1
+
+	#Bass pitches
+	#half notes
+	notes = make_chromatic_sequence("c,","d'",(1,2))
+	for i in range(len(notes)):
+		table_m.append([n,notes[i]])
+		n+=1
+		if n == 135 :
+			table_m.append([n,abjad.Note("ds2")])
+			n+=1
+	# dotted half notes:
+	notes = make_chromatic_sequence("c,","d'",(3,4))
+	for i in range(len(notes)):
+		table_m.append([n,notes[i]])
+		n+=1
+		if n == 163 :
+			table_m.append([n,abjad.Note("ds2.")])
+			n+=1
+	# quarter notes:
+	notes = make_chromatic_sequence("c,","d'",(1,4))
+	for i in range(len(notes)):
+		table_m.append([n,notes[i]])
+		n+=1
+		if n == 191 :
+			table_m.append([n,abjad.Note("ds4")])
+			n+=1
+	# eight notes:
+	notes = make_chromatic_sequence("c,","d'",(1,8))
+	for i in range(len(notes)):
+		table_m.append([n,notes[i]])
+		n+=1
+		if n == 219 :
+			table_m.append([n,abjad.Note("ds8")])
+			n+=1
+
+	#adding rests
+	table_m.append([n,abjad.Rest('r4')])
+	n+=1
+	table_m.append([n,abjad.Rest('r8')])
+
+	#Show tables
+	#print("Musical table:",table_m)
+	return table_m
+	
 def import_random_sequence(m,o):
 	#Generate random sequence given measures and options
 	s = []
@@ -110,20 +333,103 @@ def abjad_make_score(s,m):
 	#print(score_ly)
 	return lilypond_file
 
+def generate_measure(c,table,m,v_count):
+	# This function generates a musical measure given the 
+	# choice \in {1,9} and the correspondent table (measure,part,mode)
+	# m = musical table as imput
+	# v_count is the boundary between violin and bass
+	
+	#Generate sequence of integers according to the "snake" method in the introduction
+
+	i = c 
+	sequence = []
+	while i < len(table):
+		sequence.append(table[i])
+		i+=9
+
+	print("Generated sequence:",sequence)
+
+	#generate staff according to sequence
+
+	staff = [ abjad.Staff() for _ in range(2)]
+
+	for i in range(len(sequence)):
+		#violin part
+		if sequence[i] == 0:
+			print("zero")
+
+		elif (sequence[i] <= v_count) and (sequence[i] >0):
+			staff[0].append(m[sequence[i]-1][1])
+			#print("last note:",staff[0][-1])
+			#bass part (all rest go to the bass)
+		else:
+			staff[1].append(m[sequence[i]-1][1])
+			#print("last note:",staff[1][-1])
+
+	print("Violin:",staff[0])
+	print("Bass:",staff[1])
+
+	return staff
+
 # Musical table 9 options for 6 measures
-options = 9
-measures = 16
+n_options = 9
+n_measures = 16
 
 # Generate a measure x options table to call out musical fragments
-table = [[0]*options for _ in range(measures)]
+table = [[0]*n_options for _ in range(n_measures)]
 
-sequence = import_random_sequence(measures,options)
+sequence = import_random_sequence(n_measures,n_options)
 print("Random sequence:",sequence)
 
+# WARNING: In the original treatise the initial digit is transformed 
+# such that choice = 9 - digit 
+
+# Generate musical tables, for violin (p.6) and bass (p.7)
+
+musical_table=generate_musical_tables()
+violin_count = 119
+
+#Add first measure, clef, key and time signatures:
+measures = generate_measure(sequence[0],table_dM_part1[1],musical_table,violin_count)
+abjad.attach(abjad.Clef("bass"),measures[1][0])
+abjad.attach(abjad.Clef("treble"),measures[0][0])
+abjad.attach(abjad.TimeSignature((3, 4)),measures[0][0])
+abjad.attach(abjad.TimeSignature((3, 4)),measures[1][0])
+key = abjad.KeySignature(abjad.NamedPitchClass("d"), abjad.Mode("major"))
+abjad.attach(key,measures[0][0])
+abjad.attach(key,measures[1][0])
+
+# Add measures first part
+
+print("first measure:",measures)
+
+for i in range(int(n_measures/2)):
+	if i >0 :
+		new_measure = generate_measure(sequence[i],table_dM_part1[i+1],musical_table,violin_count)
+		# Append notes to measures
+		for i in range(len(new_measure[0])):
+			measures[0].append(abjad.Note(new_measure[0][i]))
+		for i in range(len(new_measure[1])):
+			measures[1].append(abjad.Note(new_measure[1][i]))
+
+staff_group = abjad.StaffGroup(
+        [measures[0], measures[1]],
+        lilypond_type="ChoirStaff",
+        name="ChoirStaff",
+    )
+
+score = abjad.Score([staff_group])
+
+
+
+abjad.show(score)
+
+
+
 s_string = ""
-for i in range(measures):
+for i in range(n_measures):
 	s_string+=str(sequence[i])
-	if i<(measures-1):
+	if i<(n_measures-1):
 		s_string+="-"
 
 # Compile score with abjad
