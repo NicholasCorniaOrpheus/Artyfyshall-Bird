@@ -553,7 +553,7 @@ file_names = os.listdir(source_dir)
 for file_name in file_names:
 	# exclude .log files
 	if file_name[-3:] =='.ly':
-		os.rename(source_dir+file_name,target_dir+"gp-01-out-"+r_string+".ly")
+		os.rename(source_dir+file_name,target_dir+"mw-out-"+r_string+".ly")
 
 # TO DO:
 	# Tabella 3 encoding musical symbols (as lilypond line)
