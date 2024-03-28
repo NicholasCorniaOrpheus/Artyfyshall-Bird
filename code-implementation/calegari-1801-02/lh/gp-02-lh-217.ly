@@ -1,1 +1,1 @@
-\relative c{<a a'>4 r <a a'>4}
+\relative c{<a a'>4 r <a a'>4 r}

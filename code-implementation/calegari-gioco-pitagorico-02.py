@@ -139,6 +139,7 @@ result =[]
 r_string = ""
 for i in range(len(measure_list)):
 	result.append(random.choice(measure_list[i]))
+	#result.append(measure_list[i][4])
 	r_string+=str(result[i])
 	if i<(len(measure_list)-1):
 		r_string+="-"

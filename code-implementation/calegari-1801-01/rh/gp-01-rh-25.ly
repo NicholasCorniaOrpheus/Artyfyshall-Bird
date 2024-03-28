@@ -1,1 +1,1 @@
-\relative c''{\partial 4 <d, fs a d(>4 \bar"|" <<{d'4) cs! <a c!> <g b>} \\ {<e g>2 d} >>}
+\relative c''{ <<{\partial 4 <d, fs a d~>4 \bar"|" d'4 cs! <a c!> <g b>} \\ {s4 <e g>2 d} >>}

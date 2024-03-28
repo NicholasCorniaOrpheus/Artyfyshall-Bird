@@ -104,10 +104,10 @@ def generate_uppervoice_pitch(bm,interval,direction,um,um_pos):
 	b_list = [abjad.NamedPitchClass("b"),abjad.NamedPitchClass("bf"),abjad.NamedPitchClass("fs")]
 	# c - Eb,C# 
 	c = 0.15
-	c_list = [abjad.NamedPitchClass("ef"),abjad.NamedPitchClass("cs")]
+	c_list = [abjad.NamedPitchClass("ef"),abjad.NamedPitchClass("cs"),abjad.NamedPitchClass("ds")]
 	# d - G#, Ab
 	d = 0.05
-	d_list = [abjad.NamedPitchClass("gs"),abjad.NamedPitchClass("af")]
+	d_list = [abjad.NamedPitchClass("gs"),abjad.NamedPitchClass("af"),abjad.NamedPitchClass("df"),abjad.NamedPitchClass("gf")]
 
 
 	if um_pos == 3:
@@ -166,10 +166,11 @@ def generate_uppervoice_pitch(bm,interval,direction,um,um_pos):
 		#stable case
 		if direction == "x":
 			#apply right accidental
-			if um._get_alteration() == bm._get_alteration():
+			bm_7 = simplify_more(bm+7)
+			if um._get_alteration() == bm_7._get_alteration():
 				um=simplify_more(um)   
 				return um
-			elif um._get_alteration() > bm._get_alteration():
+			elif um._get_alteration() > bm_7._get_alteration():
 				um=um-1
 				um=simplify_more(um)   
 				return um
@@ -356,25 +357,108 @@ tenor_staff = abjad_staff_generation(tenor_melody,"tenor",key,time,abjad.Clef("t
 altus_staff = abjad_staff_generation(altus_melody,"altus",key,time,abjad.Clef("treble_8"))
 cantus_staff = abjad_staff_generation(cantus_melody,"cantus",key,time,abjad.Clef("treble"))
 
+staff_group = abjad.StaffGroup(
+        [cantus_staff,altus_staff,tenor_staff,bassus_staff],
+        lilypond_type="ChoirStaff",
+        name="Choir",
+    )
+
+# Preamble
+preamble = r"""
 
 
-#NOT WORKING
-#choir = abjad.StaffGroup([tenor_staff,bassus_staff],lilypond_type="ChoirStaff", name="Choir")
-score = abjad.Score([cantus_staff,altus_staff,tenor_staff,bassus_staff])
-#score = abjad.Score(choir)
+\version "2.22.1"
+\language "english"
 
-abjad.show(score, output_directory="./campion-1618/temp/")
+\include "articulate.ly"
+
+#(set-global-staff-size 19)
+
+\paper {
+ top-system-spacing.basic-distance = #10
+  system-system-spacing.basic-distance = #20
+  last-bottom-spacing.basic-distance = #10
+horizontal-shift = #7
+top-margin = 1.5 \cm
+bottom-margin = 1 \cm
+left-margin = 1.8 \cm
+right-margin = 1.8 \cm
+%#(define fonts
+ %   (set-global-fonts
+    %#:roman "Humanistic"
+%#:sans ""
+   % )
+  %)
+
+}
+
+
+
+\header {
+    composer = \markup { "Artyfyshall Byrd" }
+    title = \markup { "A new way of making foure parts in counterpoint" }
+    subtitle = \markup {"London, 1615"}
+    copyright = \markup{ "Orpheus Institute, Resounding Libraries" }
+    tagline = \markup {" Who’s Afraid of the Artyfyshall Byrd?, 2023 "}
+}
+
+%\include "oll-core/package.ily"
+%\loadPackage lilypond-export
+
+%opts.exporter = #exportMusicXML
+
+\midi{\tempo 1 = 60}   
+
+\layout {
+  \context {
+    \Score
+    \override StaffGrouper.staff-staff-spacing.padding = #5
+    \override StaffGrouper.staff-staff-spacing.basic-distance = #5
+    \override StaffGrouper.staffgroup-staff-spacing.basic-distance = #5
+\override StaffGrouper.staffgroup-staff-spacing.padding = #5
+  \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/16)
+
+  }
+  \context { \Voice \override NoteHead.style = #'baroque }
+   \context {
+    \Staff
+    \RemoveEmptyStaves
+  }
+  \context{
+    \Voice
+    \RemoveEmptyStaves
+  }
+  \context {      \Dynamics
+    \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.basic-distance = #10
+    }
+  
+  %\FileExport #opts
+  
+}
+
+"""
+
+score = abjad.Score([staff_group])
+lilypond_file = abjad.LilyPondFile([preamble,score])
+abjad.show(lilypond_file, output_directory="./campion-1618/temp/")
 
 #rename the file(s)
 source_dir = './campion-1618/temp/'
 target_dir = './campion-1618/output/'
 	
 file_names = os.listdir(source_dir)
+
+bassus_string = ""
+bassus_staff_string = str(bassus_staff)[8:-19].split()
+for i in range(len(bassus_staff_string)):
+	bassus_string+= bassus_staff_string[i]
+	if i<(len(bassus_staff_string)-1):
+		bassus_string+="-"
 	
 for file_name in file_names:
 	# exclude .log files
 	if file_name[-3:] =='.ly':
-		os.rename(source_dir+file_name,target_dir+"nw-out-"+str(bassus_melody)+".ly")
+		os.rename(source_dir+file_name,target_dir+"nw-out-"+str(bassus_string)+".ly")
 
 # TO DO
 	# Implement algorithm for voice leading based on bassintervals
