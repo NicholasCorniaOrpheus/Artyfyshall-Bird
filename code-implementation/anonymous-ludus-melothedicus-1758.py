@@ -69,7 +69,7 @@ def abjad_make_score(s,m):
 
 # Musical table 9 options for 6 measures
 n_options = 9
-n_measures = 8
+n_measures = 16
 
 
 sequence = import_random_sequence(n_measures,n_options)
