@@ -1,0 +1,1 @@
+\relative c''{<g b g'>4 r}

@@ -1,0 +1,1 @@
+\relative c''{\partial 4 a'8[f] c[f a f c f]}

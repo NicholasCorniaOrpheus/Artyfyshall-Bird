@@ -1,0 +1,1 @@
+\relative c{c4 <g' bf c> <g bf c>}

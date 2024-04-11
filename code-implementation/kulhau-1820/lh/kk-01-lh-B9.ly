@@ -1,0 +1,1 @@
+\relative c{f,4 \clef treble <a' f'>8[<c g'>] <f a>4 \clef bass}

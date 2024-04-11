@@ -1,0 +1,1 @@
+\relative c''{\partial 4 a8[bf] c[d e f g gs!]}

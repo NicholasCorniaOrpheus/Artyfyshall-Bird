@@ -1,0 +1,1 @@
+\relative c{g16[a b c] d[e f d]}

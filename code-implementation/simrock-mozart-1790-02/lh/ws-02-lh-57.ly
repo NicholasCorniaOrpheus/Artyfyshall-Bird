@@ -1,0 +1,1 @@
+\relative c{g'8[g,16 a] b[c d b]}

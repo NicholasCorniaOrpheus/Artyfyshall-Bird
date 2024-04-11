@@ -1,0 +1,1 @@
+\relative c''{c16[e g e] c[g c e]}

@@ -1,0 +1,1 @@
+\relative c{c4 e16[g e c]}

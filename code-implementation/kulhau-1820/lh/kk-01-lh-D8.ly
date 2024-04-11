@@ -1,0 +1,1 @@
+\relative c{c4 <e g c> <e g c>}

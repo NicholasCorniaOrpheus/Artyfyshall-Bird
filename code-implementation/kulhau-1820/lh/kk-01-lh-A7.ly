@@ -1,0 +1,1 @@
+\relative c{\partial 4 r4 f, <f' a c> <f a c>}

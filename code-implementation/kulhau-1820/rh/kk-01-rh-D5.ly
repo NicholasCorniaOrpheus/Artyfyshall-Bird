@@ -1,0 +1,1 @@
+\relative c''{b!8[c d c g gs!]}
