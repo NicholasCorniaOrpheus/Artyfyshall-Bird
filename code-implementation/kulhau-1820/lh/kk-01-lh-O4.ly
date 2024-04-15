@@ -1,0 +1,1 @@
+\relative c{<<{s8 b'![f b f b]} \\ {d,2.} >> <c g' c>2^\markup{D.C.} s4 \bar"|."}

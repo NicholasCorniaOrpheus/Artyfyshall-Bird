@@ -1,0 +1,1 @@
+\relative c{c8[c' <g bf> c <f, a> c'] <c, g' c>2^\markup{D.C.} s4 \bar"|."}

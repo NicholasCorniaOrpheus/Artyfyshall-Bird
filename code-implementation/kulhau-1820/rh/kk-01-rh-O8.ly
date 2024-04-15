@@ -1,0 +1,1 @@
+\relative c''{f8 <b,! f' b!>4 <b f' b> <b f' b>8 <c e c'>2 s4 \bar"|."}

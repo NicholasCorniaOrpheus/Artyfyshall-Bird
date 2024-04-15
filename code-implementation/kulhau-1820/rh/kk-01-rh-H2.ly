@@ -1,0 +1,1 @@
+\relative c''{\bar".|:" \partial 4 c8[e] g4 \grace{a16} g8[fs! g a]}

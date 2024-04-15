@@ -1,0 +1,1 @@
+\relative c''{<<{e,8[c' b! c d c]} \\ {s4 e,4 e} >> f4 r s \bar":|."}

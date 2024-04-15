@@ -1,0 +1,1 @@
+\relative c{c8[c'] \repeat tremolo 2 {<f, a> c'} <c, g' c>4 c,^\markup{D.C.} s4 \bar"|."}

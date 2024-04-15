@@ -1,0 +1,1 @@
+\relative c''{e,8[bf'' g e c e] f4 r s \bar":|."}

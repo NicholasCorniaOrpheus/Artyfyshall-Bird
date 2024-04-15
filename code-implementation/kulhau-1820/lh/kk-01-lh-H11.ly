@@ -1,0 +1,1 @@
+\relative c{\bar".|:" \partial 4 \key ef \major c'8.[c16] \change Staff="rh" c'8^.[g^. e^. \change Staff="lh" c^. g^. e^.]}

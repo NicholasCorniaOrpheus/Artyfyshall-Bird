@@ -1,0 +1,1 @@
+\relative c{c4 \clef treble <c' e g> <c g' bf> <f a> \clef bass f, s \bar":|."}

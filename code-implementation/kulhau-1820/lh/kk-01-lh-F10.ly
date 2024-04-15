@@ -1,0 +1,1 @@
+\relative c{<bf' d>4 <b! d>4. r8}

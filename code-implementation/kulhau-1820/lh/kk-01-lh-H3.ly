@@ -1,0 +1,1 @@
+\relative c{\bar".|:" \partial 4 \key ef \major r4 c8[c' <g bf> c <g bf> c]}

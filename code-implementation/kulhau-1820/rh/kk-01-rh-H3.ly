@@ -1,0 +1,1 @@
+\relative c''{\bar".|:" \partial 4 \key ef \major \clef bass c,,,8. [c16] c4 c \clef treble c'''8.[c16]}

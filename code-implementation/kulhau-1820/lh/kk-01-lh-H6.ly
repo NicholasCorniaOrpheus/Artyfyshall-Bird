@@ -1,0 +1,1 @@
+\relative c{\bar".|:" \partial 4 r4 c8[c'] \repeat tremolo 2 {<g bf>8 c}}

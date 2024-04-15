@@ -1,0 +1,1 @@
+\relative c''{f8[c c' c, <f c'> c] <c e c'>2 s4 \bar"|."}

@@ -1,0 +1,1 @@
+\relative c{<<{s4 <g' bf> <g bf>} \\ {c,2.} >> <f a>4 f, s \bar":|."}

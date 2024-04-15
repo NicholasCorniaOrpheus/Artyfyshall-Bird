@@ -1,0 +1,1 @@
+\relative c''{\bar".|:" \partial 4 c4~c8[d e f g a]}

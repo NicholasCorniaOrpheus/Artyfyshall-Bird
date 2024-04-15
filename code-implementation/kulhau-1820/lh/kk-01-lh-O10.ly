@@ -1,0 +1,1 @@
+\relative c{c8[c' a c f, c'] c,4 \change Staff="rh" \stemDown <c'  g'>_\markup{D.C.} \change Staff="lh"  s4 \bar"|."}

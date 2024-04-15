@@ -1,0 +1,1 @@
+\relative c{<<{s8 c'8[<g bf> c <g bf> c]} \\ {c,2.} >> <f a>4 f, s \bar":|."}

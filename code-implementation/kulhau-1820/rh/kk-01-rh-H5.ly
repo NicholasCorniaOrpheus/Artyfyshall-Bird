@@ -1,0 +1,1 @@
+\relative c''{\bar".|:" \partial 4 b!8[c] d[c f e a g]}

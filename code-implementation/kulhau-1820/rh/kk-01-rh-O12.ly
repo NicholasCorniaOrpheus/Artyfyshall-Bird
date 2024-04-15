@@ -1,0 +1,1 @@
+\relative c''{f4 <c g' bf> <c f a> <c e g>2 s4 \bar"|."}

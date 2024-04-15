@@ -1,0 +1,1 @@
+\relative c{c8[c'] \repeat tremolo 2 {<g bf> c}}

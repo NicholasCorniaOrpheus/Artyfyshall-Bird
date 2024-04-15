@@ -1,0 +1,1 @@
+\relative c{c4 \clef treble <a' f'> <f' a> <c g'>2^\markup{D.C.} s4 \bar"|."}

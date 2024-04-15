@@ -1,0 +1,1 @@
+\relative c''{<<{e,8[c] d[c] d[c]} \\ {e,4 e e} >>}

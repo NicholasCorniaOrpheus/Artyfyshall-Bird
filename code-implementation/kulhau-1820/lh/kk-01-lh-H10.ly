@@ -1,0 +1,1 @@
+\relative c{\bar".|:" \partial 4 \key ef \major <c, c'>8.[<c c'>16] <d d'>4 (<c c'>) c'8.[c16]}
