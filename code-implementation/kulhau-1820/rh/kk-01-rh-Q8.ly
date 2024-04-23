@@ -1,0 +1,1 @@
+\relative c''{f8[r16 e! f8 r16 e f r16 e]}

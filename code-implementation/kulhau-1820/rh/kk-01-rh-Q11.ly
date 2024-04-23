@@ -1,0 +1,1 @@
+\relative c''{f4. bf8[d, ef]}

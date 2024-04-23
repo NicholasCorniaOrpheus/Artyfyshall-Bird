@@ -1,0 +1,1 @@
+\relative c{\bar".|:" \partial 4 \key bf \major r4 bf <f' bf d> <f bf d>}

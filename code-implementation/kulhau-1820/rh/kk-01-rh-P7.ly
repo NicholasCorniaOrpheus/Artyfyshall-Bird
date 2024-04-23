@@ -1,0 +1,1 @@
+\relative c''{\bar".|:" \partial 4 \key bf \major f'8[e!] g[f cs! d a bf]}

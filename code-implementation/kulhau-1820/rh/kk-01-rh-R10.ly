@@ -1,0 +1,1 @@
+\relative c''{f8[bf d, f bf, d]}

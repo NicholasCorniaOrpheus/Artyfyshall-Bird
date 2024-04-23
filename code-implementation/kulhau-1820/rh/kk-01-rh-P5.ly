@@ -1,0 +1,1 @@
+\relative c''{\bar".|:" \partial 4 \key bf \major f,8.[f16] f8[bf] bf[d] d[f]}
