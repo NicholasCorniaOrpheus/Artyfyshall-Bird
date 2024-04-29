@@ -1,0 +1,1 @@
+\relative c''{d8[f bf bf,] <<{d8.[c16]} \\ {a4} >> bf4 r s4 \bar":|.|:" \mark \markup{\musicglyph #"scripts.ufermata" }}

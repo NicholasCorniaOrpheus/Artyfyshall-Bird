@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{d8[d' bf]} \tuplet3/2{f[d bf]} \tuplet3/2{a[g' f]} bf,4 r4 s4 \bar":|.|:" \mark \markup{\musicglyph #"scripts.ufermata" } }

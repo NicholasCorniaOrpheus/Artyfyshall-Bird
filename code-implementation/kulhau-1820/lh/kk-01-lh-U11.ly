@@ -1,0 +1,1 @@
+\relative c{<f a c>4 \clef "treble" <f' a c>2 \clef "bass"}

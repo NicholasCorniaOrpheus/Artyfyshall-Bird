@@ -4,7 +4,7 @@
 
 \include "articulate.ly"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 17.5)
 
 \paper {
  top-system-spacing.basic-distance = #10

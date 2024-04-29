@@ -1,0 +1,1 @@
+\relative c''{f,8[r16 f32 g] a8[r16 a32 bf] c8[r16 c32 d]}

@@ -1,0 +1,1 @@
+\relative c''{ef8[c'~] \tuplet3/2{c8[bf a]} \tuplet3/2{g8[f ef]}}

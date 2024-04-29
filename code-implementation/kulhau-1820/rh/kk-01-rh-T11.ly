@@ -1,0 +1,1 @@
+\relative c''{f,8[r16 d' ef8 r16 d ef8 r16 d]}

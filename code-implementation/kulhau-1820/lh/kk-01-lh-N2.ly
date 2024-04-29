@@ -1,1 +1,1 @@
-\relative c{c8[c'] \repeat tremolo 2 {<f, a> c'>}}
+\relative c{c8[c'] \repeat tremolo 2 {<f, a> c'}}

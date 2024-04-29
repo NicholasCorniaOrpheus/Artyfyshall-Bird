@@ -1,0 +1,1 @@
+\relative c{<g' bf>4 <ef ef'> <f c'> <bf d> bf, s4 \bar":|.|:" \mark \markup{\musicglyph #"scripts.ufermata" }}
