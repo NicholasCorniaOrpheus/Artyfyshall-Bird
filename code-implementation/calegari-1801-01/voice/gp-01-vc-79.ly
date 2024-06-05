@@ -1,0 +1,1 @@
+\relative c''{a4~a16 \fermata [b c b] a4 d8. d16}

@@ -1,0 +1,1 @@
+\relative c''{d4 r e8[g] d[g]}

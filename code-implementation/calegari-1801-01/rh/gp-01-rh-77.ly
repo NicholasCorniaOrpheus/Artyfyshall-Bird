@@ -1,0 +1,1 @@
+\relative c''{<g bf! cs! g'>2 <d g b! d>4 <d fs a d>}

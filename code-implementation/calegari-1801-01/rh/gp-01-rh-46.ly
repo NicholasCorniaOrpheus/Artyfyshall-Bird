@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{fs,8[(a[(a d)]} \tuplet3/2{fs[(a d)]} }

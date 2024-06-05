@@ -1,0 +1,1 @@
+\relative c''{<g d'>16[ g' fs g] d4 <g, e'> <g d'>}

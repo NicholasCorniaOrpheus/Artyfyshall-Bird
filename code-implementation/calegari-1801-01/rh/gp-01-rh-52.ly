@@ -1,0 +1,1 @@
+\relative c''{<d gs!>4 <cs! a'>8 r16 \fermata <e, g!>16 <d fs>4 <cs! e>}

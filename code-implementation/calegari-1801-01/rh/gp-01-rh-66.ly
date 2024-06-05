@@ -1,0 +1,1 @@
+\relative c''{<g d'>1 \fermata}

@@ -1,0 +1,1 @@
+\relative c{<d, d'>2.\fermata ^\f r4}

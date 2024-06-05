@@ -1,0 +1,1 @@
+\relative c''{cs!8[d] e[d] cs[d] e[c!]}

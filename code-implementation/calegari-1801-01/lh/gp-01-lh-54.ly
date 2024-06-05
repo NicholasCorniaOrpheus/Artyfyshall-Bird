@@ -1,0 +1,1 @@
+\relative c{<d, d'>4^\f r4 \fermata <g' b>4^\p <d a'>}

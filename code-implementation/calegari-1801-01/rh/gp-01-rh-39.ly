@@ -1,0 +1,1 @@
+\relative c''{<as! cs!>8_\sf[<b d>_\p <c! e> <b d>] <as cs>_\sf[<b d>_\p <c! e> <a c!>]}

@@ -1,0 +1,1 @@
+\relative c{\partial 4 r4 <b b'>4^\f e <a, a'> d4}

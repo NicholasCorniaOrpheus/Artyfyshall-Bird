@@ -29,6 +29,6 @@ Many of the following treatises have been listed in Stephen A. Hedges 1978 artic
 | -------------------------------- | ---------------------------------------------------------------------------- | ------------ | ------------------------------------------------ | ---------------------- |
 | *Cabala per componendi minuetti* | [Johann Philipp Kirnberger](https://en.wikipedia.org/wiki/Johann_Kirnberger) | 18th century | Österreichische Nationalbibliothek, Mus.Hs.19102 |                        |
 | *Tavola per la cabala*           | [Bernardo Ottani](https://it.wikipedia.org/wiki/Bernardo_Ottani)             | 18th century | Biblioteca Casanatense, MS MUS 5989              |                        |
-| *Musicalische Cabala*            | Franciscus Schola                                                            | 1773         | Bibliothèque nationale de France, RES VMB MS-103 |                        |
+| *Musicalische Cabala*            | Franciscus Schola                                                            | 1773         | [Bibliothèque nationale de France, RES VMB MS-103](https://catalogue.bnf.fr/ark:/12148/cb43516758n) |                        |
 | *Musikalisches Würfelspiel*      | Anonymous                                                                    | 18th century | Händel-Haus Halle, AS-Römhild-Konvolut A 1       |                        |
 

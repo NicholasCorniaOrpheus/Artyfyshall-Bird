@@ -1,0 +1,1 @@
+\relative c''{\partial 4 r4 <b, g'>4. <d a'>8 <<{b'[c d e]} \\ {g,2} >>}

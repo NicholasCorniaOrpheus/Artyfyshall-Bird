@@ -1,0 +1,1 @@
+\relative c{r4^\f <d, d'>^\p r2}

@@ -1,0 +1,1 @@
+\relative c''{<d, fs a d>4 r4 r2}

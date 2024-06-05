@@ -1,0 +1,1 @@
+\relative c{\partial 4 r4 <g g'>4.^\f fs'8^\p g8[a b c]}

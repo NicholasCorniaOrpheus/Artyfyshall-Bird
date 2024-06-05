@@ -1,0 +1,1 @@
+\relative c{<c c'>2 d'8 r d, r}

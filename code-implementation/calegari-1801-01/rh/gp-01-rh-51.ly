@@ -1,0 +1,1 @@
+\relative c''{<g b>2(<fs a>4) <fs a>}

@@ -1,0 +1,1 @@
+\relative c{<b b'>1 \fermata ^\fp}

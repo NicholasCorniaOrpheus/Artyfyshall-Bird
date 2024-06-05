@@ -1,0 +1,1 @@
+\relative c{r8 fs'8[a fs] d[fs a d]}

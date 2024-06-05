@@ -1,0 +1,1 @@
+\relative c''{<c, a'>2 <b g'>4 s4 \bar"||"}

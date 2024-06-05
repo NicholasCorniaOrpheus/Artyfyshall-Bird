@@ -1,0 +1,1 @@
+\relative c''{b4. \fermata \turn (c8) a4 d8. d16}
