@@ -1,0 +1,1 @@
+\relative c''{\partial 4 r4 \tuplet3/2{b,8[(d g)]} \tuplet3/2{b,[(d g)]} \tuplet3/2{b,[(d g)]} \tuplet3/2{b,[(d g)]} }

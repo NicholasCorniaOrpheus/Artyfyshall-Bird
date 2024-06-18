@@ -1,0 +1,1 @@
+\relative c{c'8 r g r <fs d'> r <g d'> r}

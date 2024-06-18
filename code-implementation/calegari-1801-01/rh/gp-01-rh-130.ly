@@ -1,0 +1,1 @@
+\relative c''{\partial 4 <b d>8.[<b d>16] <b d>8[(<a c>)] <a c>[(<g b>)] <d b'>[(<c a'>)] <c a'>[(<b g'>)]}

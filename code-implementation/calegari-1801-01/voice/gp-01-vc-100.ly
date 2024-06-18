@@ -1,0 +1,1 @@
+\relative c''{c,4 e'8 r16 \fermata e d8.\trill[c16] b8.\trill[a16]}

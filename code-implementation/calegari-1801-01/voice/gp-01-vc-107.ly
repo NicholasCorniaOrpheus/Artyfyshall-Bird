@@ -1,0 +1,1 @@
+\relative c''{b4. g'8 g[e] d[cs!]}

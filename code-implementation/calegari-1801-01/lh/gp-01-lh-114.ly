@@ -1,0 +1,1 @@
+\relative c{<d, d'>4 ^\f <e e'> fs'8 ^\p [d g g,]}

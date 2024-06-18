@@ -1,0 +1,1 @@
+\relative c{<c c'>1}

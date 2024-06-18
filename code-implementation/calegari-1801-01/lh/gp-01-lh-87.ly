@@ -1,0 +1,1 @@
+\relative c{<c c'>4.^\f d8 g4. ^\p g,8}

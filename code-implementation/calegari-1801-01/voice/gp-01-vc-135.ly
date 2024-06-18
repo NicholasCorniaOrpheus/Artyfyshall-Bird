@@ -1,0 +1,1 @@
+\relative c''{\partial 4 d8.(b16) gs!8[f'!] e[d] c[b] a[b]}

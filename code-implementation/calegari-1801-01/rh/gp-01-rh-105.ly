@@ -1,0 +1,1 @@
+\relative c''{d,8[fs16 a] d8[fs16 a] d4 \bar"||" s4}

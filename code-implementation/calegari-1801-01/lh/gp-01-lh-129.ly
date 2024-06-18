@@ -1,0 +1,1 @@
+\relative c{<g g'> r <a a'> r}

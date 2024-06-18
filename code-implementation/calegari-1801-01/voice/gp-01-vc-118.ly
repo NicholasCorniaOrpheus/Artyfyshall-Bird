@@ -1,0 +1,1 @@
+\relative c''{g8[fs(a) fs] d4 d8. d'16}

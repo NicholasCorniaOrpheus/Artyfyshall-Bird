@@ -1,0 +1,1 @@
+\relative c{<bf! bf'!>2 <a a'>4 <a a'>}

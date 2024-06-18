@@ -1,0 +1,1 @@
+\relative c''{r4 <e, g c e>8 r \fermata <g b d> r <a c d fs> r}

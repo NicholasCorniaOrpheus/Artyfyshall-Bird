@@ -1,0 +1,1 @@
+\relative c''{r8 <e, g a cs!> r <fs a d> r <d a' c!> r <d g b>}

@@ -1,0 +1,1 @@
+\relative c''{\partial 4 r4 <b d>4 <c e>8. [<as! cs!>16] <b d>4 <c! e>8. [<a! c>16]}
