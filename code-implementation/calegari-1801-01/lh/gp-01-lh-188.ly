@@ -1,0 +1,1 @@
+\relative c{<g g'>4. ^\fp fs'8 g[a b c]}

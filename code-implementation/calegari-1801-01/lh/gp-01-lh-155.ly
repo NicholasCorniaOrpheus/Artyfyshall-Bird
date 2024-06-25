@@ -1,0 +1,1 @@
+\relative c{r8 ^\f <d, d'>4 <e e'>8 ^\p fs'8[d g g,]}

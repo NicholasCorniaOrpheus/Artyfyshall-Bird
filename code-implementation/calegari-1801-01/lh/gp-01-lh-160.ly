@@ -1,0 +1,1 @@
+\relative c{\partial 4 r4 g'8 r r4 <g, g'>2 ^\fp}

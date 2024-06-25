@@ -8,7 +8,7 @@
     <<
     \set Staff.midiInstrument =#"voice oohs" {
     \include "voice_option.ly"
-\include "./voice/gp-01-vc-184.ly"
+\include "./voice/gp-01-vc-161.ly"
 }  
     >>
     
@@ -17,12 +17,12 @@
     <<
        \context Staff = "rh" {
          \include "voice_option.ly"
-\include "./rh/gp-01-rh-184.ly"
+\include "./rh/gp-01-rh-161.ly"
 }
         
         \context Staff = "lh" {
          \include"bassline_option.ly"
-\include "./lh/gp-01-lh-184.ly"
+\include "./lh/gp-01-lh-161.ly"
 }
         
     >>

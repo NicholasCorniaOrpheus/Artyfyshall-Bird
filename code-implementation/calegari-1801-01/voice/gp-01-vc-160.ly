@@ -1,0 +1,1 @@
+\relative c''{\partial 4 d8. d16 d32[(c b8.)] b32[(a g8.)] g8[(a16 g fs8)] g8}

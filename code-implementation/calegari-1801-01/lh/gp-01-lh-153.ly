@@ -1,0 +1,1 @@
+\relative c{r8 a'8[d, fs] g r g, r}

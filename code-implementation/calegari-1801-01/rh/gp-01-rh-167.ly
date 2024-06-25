@@ -1,0 +1,1 @@
+\relative c''{<g e'>4.. <a c>16 <g b>4 <fs a>}

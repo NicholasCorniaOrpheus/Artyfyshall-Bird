@@ -1,0 +1,1 @@
+\relative c''{<g e'>4. <d fs>8 <<{g8[(b a g)]} \\ {d4 c8[b]} >>}

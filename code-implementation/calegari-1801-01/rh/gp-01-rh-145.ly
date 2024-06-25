@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{b,8[(d g]} \tuplet3/2{b,8)[(d g]} \tuplet3/2{b,8)[(d g]} \tuplet3/2{b,8)[(d g)]}}

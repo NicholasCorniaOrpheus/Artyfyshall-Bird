@@ -1,0 +1,1 @@
+\relative c''{g4. b8 g4. b8}

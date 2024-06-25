@@ -1,0 +1,1 @@
+\relative c{<d d'>2 ~ d'8[d,16 fs a8 d]}

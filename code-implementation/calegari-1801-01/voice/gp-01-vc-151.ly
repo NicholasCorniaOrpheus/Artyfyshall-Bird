@@ -1,0 +1,1 @@
+\relative c''{b8[g] d'[b] g'[d] b[g]}

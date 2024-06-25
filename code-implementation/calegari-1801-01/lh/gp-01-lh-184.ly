@@ -1,3 +1,1 @@
-\relative c{
-  r4 fs4(g) <b, b'>
-}
+\relative c{r4 fs(g) <b, b'>4}

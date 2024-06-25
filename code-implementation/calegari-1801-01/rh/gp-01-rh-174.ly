@@ -1,0 +1,1 @@
+\relative c''{<g b>4 <a c> <c e>8[ <b d> <a c> <g b>]}

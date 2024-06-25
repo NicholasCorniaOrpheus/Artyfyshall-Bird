@@ -1,0 +1,1 @@
+\relative c''{r4 <fs, d'>8. [<fs d'>16] <fs d'>4 \bar"||" r4}

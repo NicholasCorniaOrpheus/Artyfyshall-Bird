@@ -1,0 +1,1 @@
+\relative c{<c c'>2 ^\fp b'8[(g fs g)]}

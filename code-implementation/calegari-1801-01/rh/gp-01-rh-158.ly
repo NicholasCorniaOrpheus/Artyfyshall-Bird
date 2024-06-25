@@ -1,0 +1,1 @@
+\relative c''{<fs, a>4 r8. <fs a d>16 <fs d'>4 r}

@@ -1,0 +1,1 @@
+\relative c{d2~ ^\fp d8[(g fs g)]}

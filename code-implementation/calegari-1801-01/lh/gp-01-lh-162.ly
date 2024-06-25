@@ -1,0 +1,1 @@
+\relative c{d4 ^\f <d, d'> <d d'> \bar"||" s4}
