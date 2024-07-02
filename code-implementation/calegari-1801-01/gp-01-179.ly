@@ -20,7 +20,6 @@
     <<
        \context Staff = "rh" {
          \include "voice_option.ly"
-         
          \include "./rh/gp-01-rh-179.ly"
          
         }

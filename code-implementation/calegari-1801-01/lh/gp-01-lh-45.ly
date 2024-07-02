@@ -1,1 +1,1 @@
-\relative c{<g g'>2. s4 \bar"||"}
+\relative c{<g g'>2. \bar"||" s4}

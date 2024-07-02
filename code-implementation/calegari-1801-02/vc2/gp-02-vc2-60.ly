@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{b8[d cs]} \tuplet3/2{b[cs a]} gs4 e8. e16}

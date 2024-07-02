@@ -1,0 +1,1 @@
+\relative c{<e, e'>8^\f [<e e'> <e e'>] r r e' e,4}

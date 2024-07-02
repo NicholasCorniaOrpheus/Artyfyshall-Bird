@@ -1,0 +1,1 @@
+\relative c{<gs' e'>4 a8 r r <a e'>[<gs e'> <a e'>]}

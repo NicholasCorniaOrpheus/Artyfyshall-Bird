@@ -1,0 +1,1 @@
+\relative c{<gs gs'>2. r4}

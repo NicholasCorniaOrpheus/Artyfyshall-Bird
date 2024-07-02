@@ -1,0 +1,1 @@
+\relative c''{\grace{gs8} a2 \fermata \tuplet3/2{a8[b cs]} cs4}

@@ -1,0 +1,1 @@
+\relative c''{<e, g a cs!>4 <d fs b d> r16 d16[fs a] d4}

@@ -1,1 +1,1 @@
-\relative c''{\grace{e16} <<{d2 r4} \\ {d,4 r r} >> \bar"||" r4}
+\relative c''{\grace{e16} <<{d2 r4} \\ {d,4 r r} >> \bar"||" s4}

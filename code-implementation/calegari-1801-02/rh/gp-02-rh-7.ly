@@ -1,0 +1,1 @@
+\relative c''{<gs, e'>2. \bar"||" s4}

@@ -1,0 +1,1 @@
+\relative c''{d4(cs8) cs b8[cs] d[cs]}

@@ -1,0 +1,1 @@
+\relative c''{b4 (a8) a gs[a] b[a]}

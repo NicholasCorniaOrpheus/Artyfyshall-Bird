@@ -8,9 +8,7 @@
     
     <<
     \set Staff.midiInstrument =#"voice oohs" {
-
-   \key g \major \clef treble
-    s1
+    \include"voice_option.ly"
     \include "./voice/gp-01-vc-14.ly"
     
     }  
@@ -21,15 +19,13 @@
     \context PianoStaff \with { instrumentName = "Piano"}
     <<
        \context Staff = "rh" {
-         \key g \major \clef treble
-         s1
+         \include"voice_option.ly"
          \include "./rh/gp-01-rh-14.ly"
          
         }
         
         \context Staff = "lh" {
-        \key g \major \clef bass
-        s1
+        \include"bassline_option.ly"
         \include "./lh/gp-01-lh-14.ly"
           
         }

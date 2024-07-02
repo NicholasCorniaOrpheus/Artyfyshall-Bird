@@ -1,0 +1,1 @@
+\relative c{<gs gs'>4 ^\f <a a'>^\p <e e'>^\f <a a'>^\p}

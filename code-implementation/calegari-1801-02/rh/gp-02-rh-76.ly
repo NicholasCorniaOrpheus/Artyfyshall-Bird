@@ -1,0 +1,1 @@
+\relative c''{\partial 4 r4 <e, gs>8[(<fs a>)] <fs a>[(<gs b>)] <gs b>[(<a cs>)] <a cs>[(<b d>)]}

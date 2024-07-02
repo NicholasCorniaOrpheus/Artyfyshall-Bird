@@ -1,0 +1,1 @@
+\relative c''{<g cs!>2 ^\markup{\italic "(a piacere)"} ^\fermata <<{<a c!>4 <g b>} \\ {d2} >>}

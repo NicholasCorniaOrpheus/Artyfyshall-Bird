@@ -1,0 +1,1 @@
+\relative c''{fs,4. (gs16[a]) gs4 e'8. e16}

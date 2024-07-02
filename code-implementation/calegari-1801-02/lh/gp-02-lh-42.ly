@@ -1,1 +1,1 @@
-\relative c{<a a'>2^\fp <gs gs'>4 <a a'>}
+\relative c{\partial 4 r4 <a a'>2^\fp <gs gs'>4 <a a'>}

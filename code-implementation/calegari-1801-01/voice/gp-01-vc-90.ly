@@ -1,3 +1,3 @@
 \relative c''{
-  <d, d'>4 r r s \bar"||"
+  <d, d'>4 r r \bar"||" s 
 }

@@ -1,3 +1,3 @@
 \relative c'{
-  g'4 <d b'> <b g'> s4 \bar"||"
+  g'4 <d b'> <b g'>  \bar"||" s4
 }

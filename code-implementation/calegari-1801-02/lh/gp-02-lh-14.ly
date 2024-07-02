@@ -1,0 +1,1 @@
+\relative c{<a a'>2 \fermata r4 a}

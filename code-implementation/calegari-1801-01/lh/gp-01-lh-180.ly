@@ -1,3 +1,3 @@
 \relative c{
-  g'4 r g, r
+  \partial 4 r4 g'4 r g, r
 }

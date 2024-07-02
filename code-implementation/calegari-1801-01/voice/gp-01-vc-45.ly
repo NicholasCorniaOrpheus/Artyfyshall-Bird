@@ -1,1 +1,1 @@
-\relative c''{a2(g4) s4 \bar"||"}
+\relative c''{a2(g4) \bar"||" s4}

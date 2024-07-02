@@ -1,0 +1,1 @@
+\relative c''{d32[cs b8.] b4 r d8. d16}

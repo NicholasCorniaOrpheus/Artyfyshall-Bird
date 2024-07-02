@@ -1,0 +1,1 @@
+\relative c''{fs,2(gs4) e'8 cs}

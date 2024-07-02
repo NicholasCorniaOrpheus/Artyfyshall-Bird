@@ -1,3 +1,3 @@
 \relative c{
-  <d, d'>2.^\f s4 \bar"||"
+  <d, d'>2.^\f  \bar"||" s4
 }

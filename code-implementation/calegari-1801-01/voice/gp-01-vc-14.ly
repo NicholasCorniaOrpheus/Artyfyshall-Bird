@@ -1,3 +1,3 @@
 \relative c''{
-  g4 r r s \bar"||"
+  g4 r r \bar"||" s
 }

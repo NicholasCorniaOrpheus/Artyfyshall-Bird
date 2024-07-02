@@ -1,0 +1,1 @@
+\relative c''{\partial 4 gs8. a16 b4. cs8 b4. cs8}

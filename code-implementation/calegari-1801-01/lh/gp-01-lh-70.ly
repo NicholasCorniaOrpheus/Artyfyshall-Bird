@@ -1,1 +1,1 @@
-\relative c{<fs, fs'>^\f <g g'>8 r <d d'>4^\p <d d'>}
+\relative c{<fs, fs'>4 ^\f <g g'>8 r <d d'>4^\p <d d'>}

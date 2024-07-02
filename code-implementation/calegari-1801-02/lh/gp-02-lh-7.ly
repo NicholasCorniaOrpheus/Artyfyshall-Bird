@@ -1,0 +1,1 @@
+\relative c{e4 b8[gs] e4 \bar"||" s4}

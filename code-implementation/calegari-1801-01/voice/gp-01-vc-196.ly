@@ -1,0 +1,1 @@
+\relative c''{g'4 g,8 \fermata r16 ^\markup{\italic "(a piacere)"} g \grace{b8} a8.[g16] a8.[b16]}

@@ -1,0 +1,1 @@
+\relative c''{r8 e,8[<ds! fs> <d! gs>] <cs a'>2}

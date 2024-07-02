@@ -1,3 +1,3 @@
 \relative c{
-  <g' b>4 r r s \bar"||"
+  <g' b>4 r r  \bar"||" s
 }

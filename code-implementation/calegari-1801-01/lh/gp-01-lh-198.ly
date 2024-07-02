@@ -1,0 +1,1 @@
+\relative c{<e, e'>2 ^\markup{\italic "(colla parte)"} ^\fermata <fs fs'>4 <g g'>}

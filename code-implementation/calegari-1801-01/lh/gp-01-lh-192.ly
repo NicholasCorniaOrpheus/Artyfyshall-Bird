@@ -1,0 +1,1 @@
+\relative c{<d fs>2. fs4}

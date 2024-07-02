@@ -1,0 +1,1 @@
+\relative c''{r4 a16[d cs! d] a8[<a d> <a d> <a d>]}
