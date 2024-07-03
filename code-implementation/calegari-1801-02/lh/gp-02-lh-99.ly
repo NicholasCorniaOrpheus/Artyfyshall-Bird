@@ -1,0 +1,1 @@
+\relative c{<a a'>4 (a'8[b16 cs]) d4 cs8[a]}

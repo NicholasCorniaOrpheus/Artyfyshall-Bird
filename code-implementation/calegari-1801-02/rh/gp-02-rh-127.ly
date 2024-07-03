@@ -1,0 +1,1 @@
+\relative c''{<gs b>16[<fs a> <e gs> <fs a>] <gs b>8[<b d>] <b d>2}

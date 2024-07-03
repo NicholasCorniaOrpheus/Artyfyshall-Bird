@@ -1,0 +1,1 @@
+\relative c''{e,8. [gs32 b] e8.[b32 gs] e4 \bar"||" s4}

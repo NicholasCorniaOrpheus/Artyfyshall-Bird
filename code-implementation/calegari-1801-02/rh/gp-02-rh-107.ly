@@ -1,0 +1,1 @@
+\relative c''{\partial 4 r4 <fs, as! cs e>2. ~ <fs as cs e>8[<fs b d>]}

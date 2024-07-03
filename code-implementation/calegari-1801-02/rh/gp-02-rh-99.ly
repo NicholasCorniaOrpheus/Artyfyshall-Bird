@@ -1,0 +1,1 @@
+\relative c''{<cs e>4 \grace{fs8} <cs e>8[<b d>16 <a cs>] <gs b>4 <a cs>}

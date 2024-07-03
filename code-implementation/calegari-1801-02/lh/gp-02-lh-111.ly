@@ -1,0 +1,1 @@
+\relative c{<a a'>4. d'8 e4 e,}

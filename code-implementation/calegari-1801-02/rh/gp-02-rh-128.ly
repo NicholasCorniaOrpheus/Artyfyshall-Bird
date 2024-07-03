@@ -1,0 +1,1 @@
+\relative c''{<a cs>8[<cs e>16 <b d>] <a cs>8[<b d>16 <cs e>] <d fs>4. <cs e>8}

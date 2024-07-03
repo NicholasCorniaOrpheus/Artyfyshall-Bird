@@ -1,0 +1,1 @@
+\relative c''{e,8[fs] fs[gs] gs[a] a[b]}

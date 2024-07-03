@@ -1,0 +1,1 @@
+\relative c''{b4. \fermata a8 gs4 r}

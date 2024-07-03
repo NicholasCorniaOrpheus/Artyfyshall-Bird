@@ -1,0 +1,1 @@
+\relative c{<a a'>2 _\fermata <a a'>4 r}
