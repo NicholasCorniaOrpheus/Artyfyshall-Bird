@@ -1,0 +1,1 @@
+\relative c''{<e, gs b e>2 <fs a b ds!>}

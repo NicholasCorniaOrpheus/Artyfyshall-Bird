@@ -1,1 +1,1 @@
-\relative c''{gs4. a8 e4. fs8}
+\relative c''{gs4. a8 e4. \small fs8 \normalsize }

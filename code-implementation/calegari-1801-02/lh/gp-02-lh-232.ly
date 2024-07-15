@@ -1,0 +1,1 @@
+\relative c{<a a'>2 r4 fs'}

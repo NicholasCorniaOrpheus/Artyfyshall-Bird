@@ -1,0 +1,1 @@
+\relative c''{cs4. (d8) cs4 cs8. cs16}

@@ -1,0 +1,1 @@
+\relative c{gs'4 gs,2 gs'4}

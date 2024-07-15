@@ -1,0 +1,1 @@
+\relative c''{d8 fs4 d8 b d4 b8}

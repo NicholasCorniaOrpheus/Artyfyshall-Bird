@@ -1,0 +1,425 @@
+GNU LilyPond 2.22.1
+Changing working directory to: `/tmp/tmpv4bj6fd1'
+Processing `/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly'
+Parsing...
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:1:10: error: cannot find file: `../paper_settings.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+\include 
+         "../paper_settings.ly" 
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:15:14: error: cannot find file: `../voice_option.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../voice_option.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:16:14: error: cannot find file: `../vc1/gp-02-vc1-42.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-42.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:17:14: error: cannot find file: `../vc1/gp-02-vc1-207.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-207.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:18:14: error: cannot find file: `../vc1/gp-02-vc1-5.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-5.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:19:14: error: cannot find file: `../vc1/gp-02-vc1-143.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-143.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:20:14: error: cannot find file: `../vc1/gp-02-vc1-168.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-168.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:21:14: error: cannot find file: `../vc1/gp-02-vc1-216.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-216.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:22:14: error: cannot find file: `../vc1/gp-02-vc1-221.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-221.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:23:14: error: cannot find file: `../vc1/gp-02-vc1-173.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-173.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:24:14: error: cannot find file: `../vc1/gp-02-vc1-127.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-127.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:25:14: error: cannot find file: `../vc1/gp-02-vc1-59.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-59.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:26:14: error: cannot find file: `../vc1/gp-02-vc1-91.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-91.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:27:14: error: cannot find file: `../vc1/gp-02-vc1-256.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-256.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:28:14: error: cannot find file: `../vc1/gp-02-vc1-253.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-253.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:29:14: error: cannot find file: `../vc1/gp-02-vc1-29.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-29.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:30:14: error: cannot find file: `../vc1/gp-02-vc1-203.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-203.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:31:14: error: cannot find file: `../vc1/gp-02-vc1-158.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-158.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:32:14: error: cannot find file: `../vc1/gp-02-vc1-80.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-80.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:33:14: error: cannot find file: `../vc1/gp-02-vc1-222.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-222.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:34:14: error: cannot find file: `../vc1/gp-02-vc1-241.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-241.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:35:14: error: cannot find file: `../vc1/gp-02-vc1-123.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-123.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:36:14: error: cannot find file: `../vc1/gp-02-vc1-213.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-213.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:37:14: error: cannot find file: `../vc1/gp-02-vc1-18.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-18.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:38:14: error: cannot find file: `../vc1/gp-02-vc1-147.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-147.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:39:14: error: cannot find file: `../vc1/gp-02-vc1-45.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc1/gp-02-vc1-45.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:46:14: error: cannot find file: `../voice_option.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../voice_option.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:47:14: error: cannot find file: `../vc2/gp-02-vc2-42.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-42.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:48:14: error: cannot find file: `../vc2/gp-02-vc2-207.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-207.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:49:14: error: cannot find file: `../vc2/gp-02-vc2-5.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-5.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:50:14: error: cannot find file: `../vc2/gp-02-vc2-143.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-143.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:51:14: error: cannot find file: `../vc2/gp-02-vc2-168.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-168.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:52:14: error: cannot find file: `../vc2/gp-02-vc2-216.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-216.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:53:14: error: cannot find file: `../vc2/gp-02-vc2-221.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-221.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:54:14: error: cannot find file: `../vc2/gp-02-vc2-173.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-173.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:55:14: error: cannot find file: `../vc2/gp-02-vc2-127.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-127.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:56:14: error: cannot find file: `../vc2/gp-02-vc2-59.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-59.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:57:14: error: cannot find file: `../vc2/gp-02-vc2-91.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-91.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:58:14: error: cannot find file: `../vc2/gp-02-vc2-256.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-256.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:59:14: error: cannot find file: `../vc2/gp-02-vc2-253.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-253.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:60:14: error: cannot find file: `../vc2/gp-02-vc2-29.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-29.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:61:14: error: cannot find file: `../vc2/gp-02-vc2-203.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-203.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:62:14: error: cannot find file: `../vc2/gp-02-vc2-158.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-158.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:63:14: error: cannot find file: `../vc2/gp-02-vc2-80.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-80.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:64:14: error: cannot find file: `../vc2/gp-02-vc2-222.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-222.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:65:14: error: cannot find file: `../vc2/gp-02-vc2-241.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-241.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:66:14: error: cannot find file: `../vc2/gp-02-vc2-123.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-123.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:67:14: error: cannot find file: `../vc2/gp-02-vc2-213.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-213.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:68:14: error: cannot find file: `../vc2/gp-02-vc2-18.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-18.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:69:14: error: cannot find file: `../vc2/gp-02-vc2-147.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-147.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:70:14: error: cannot find file: `../vc2/gp-02-vc2-45.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../vc2/gp-02-vc2-45.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:78:14: error: cannot find file: `../voice_option.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../voice_option.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:79:14: error: cannot find file: `../rh/gp-02-rh-42.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-42.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:80:14: error: cannot find file: `../rh/gp-02-rh-207.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-207.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:81:14: error: cannot find file: `../rh/gp-02-rh-5.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-5.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:82:14: error: cannot find file: `../rh/gp-02-rh-143.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-143.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:83:14: error: cannot find file: `../rh/gp-02-rh-168.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-168.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:84:14: error: cannot find file: `../rh/gp-02-rh-216.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-216.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:85:14: error: cannot find file: `../rh/gp-02-rh-221.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-221.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:86:14: error: cannot find file: `../rh/gp-02-rh-173.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-173.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:87:14: error: cannot find file: `../rh/gp-02-rh-127.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-127.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:88:14: error: cannot find file: `../rh/gp-02-rh-59.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-59.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:89:14: error: cannot find file: `../rh/gp-02-rh-91.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-91.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:90:14: error: cannot find file: `../rh/gp-02-rh-256.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-256.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:91:14: error: cannot find file: `../rh/gp-02-rh-253.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-253.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:92:14: error: cannot find file: `../rh/gp-02-rh-29.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-29.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:93:14: error: cannot find file: `../rh/gp-02-rh-203.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-203.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:94:14: error: cannot find file: `../rh/gp-02-rh-158.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-158.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:95:14: error: cannot find file: `../rh/gp-02-rh-80.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-80.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:96:14: error: cannot find file: `../rh/gp-02-rh-222.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-222.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:97:14: error: cannot find file: `../rh/gp-02-rh-241.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-241.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:98:14: error: cannot find file: `../rh/gp-02-rh-123.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-123.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:99:14: error: cannot find file: `../rh/gp-02-rh-213.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-213.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:100:14: error: cannot find file: `../rh/gp-02-rh-18.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-18.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:101:14: error: cannot find file: `../rh/gp-02-rh-147.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-147.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:102:14: error: cannot find file: `../rh/gp-02-rh-45.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../rh/gp-02-rh-45.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:105:14: error: cannot find file: `../bassline_option.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../bassline_option.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:106:14: error: cannot find file: `../lh/gp-02-lh-42.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-42.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:107:14: error: cannot find file: `../lh/gp-02-lh-207.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-207.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:108:14: error: cannot find file: `../lh/gp-02-lh-5.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-5.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:109:14: error: cannot find file: `../lh/gp-02-lh-143.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-143.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:110:14: error: cannot find file: `../lh/gp-02-lh-168.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-168.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:111:14: error: cannot find file: `../lh/gp-02-lh-216.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-216.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:112:14: error: cannot find file: `../lh/gp-02-lh-221.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-221.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:113:14: error: cannot find file: `../lh/gp-02-lh-173.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-173.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:114:14: error: cannot find file: `../lh/gp-02-lh-127.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-127.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:115:14: error: cannot find file: `../lh/gp-02-lh-59.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-59.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:116:14: error: cannot find file: `../lh/gp-02-lh-91.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-91.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:117:14: error: cannot find file: `../lh/gp-02-lh-256.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-256.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:118:14: error: cannot find file: `../lh/gp-02-lh-253.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-253.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:119:14: error: cannot find file: `../lh/gp-02-lh-29.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-29.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:120:14: error: cannot find file: `../lh/gp-02-lh-203.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-203.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:121:14: error: cannot find file: `../lh/gp-02-lh-158.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-158.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:122:14: error: cannot find file: `../lh/gp-02-lh-80.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-80.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:123:14: error: cannot find file: `../lh/gp-02-lh-222.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-222.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:124:14: error: cannot find file: `../lh/gp-02-lh-241.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-241.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:125:14: error: cannot find file: `../lh/gp-02-lh-123.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-123.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:126:14: error: cannot find file: `../lh/gp-02-lh-213.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-213.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:127:14: error: cannot find file: `../lh/gp-02-lh-18.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-18.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:128:14: error: cannot find file: `../lh/gp-02-lh-147.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-147.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:129:14: error: cannot find file: `../lh/gp-02-lh-45.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../lh/gp-02-lh-45.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:134:14: error: cannot find file: `../layout_settings.ly'
+(search path: `/tmp/tmpv4bj6fd1:/home/user/GitHub/Artyfyshall-Bird/code-implementation:/usr/share/lilypond/2.22.1/ly:/usr/share/lilypond/2.22.1/ps:/usr/share/lilypond/2.22.1/scm:/usr/share/lilypond/2.22.1/fonts/otf/:/usr/share/lilypond/2.22.1/fonts/type1/:/usr/share/lilypond/2.22.1/fonts/svg/:')
+    \include 
+             "../layout_settings.ly"
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:1: warning: no \version statement found, please add
+
+\version "2.22.1"
+
+for future compatibility
+Interpreting music...
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:8:5: warning: skipping zero-duration score
+    
+    <<
+/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly:8:5: warning: to suppress this, consider adding a spacer rest
+    
+    <<
+fatal error: failed files: "/tmp/tmpv4bj6fd1/2024-07-15T14-15-39-024634-c3a8ddf.ly"

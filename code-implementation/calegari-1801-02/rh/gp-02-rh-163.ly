@@ -1,0 +1,1 @@
+\relative c''{<as! cs e>8[<b d>] <gs b d>[<a cs>] <a cs>[<e b'>] <e b'>[<cs a'>]}

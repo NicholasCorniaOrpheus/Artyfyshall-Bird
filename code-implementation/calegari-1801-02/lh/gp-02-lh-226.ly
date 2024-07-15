@@ -1,0 +1,1 @@
+\relative c{<a' cs>4. <e b'>8 <cs a'>4. <e b'>8}

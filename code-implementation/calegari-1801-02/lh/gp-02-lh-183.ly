@@ -1,0 +1,1 @@
+\relative c{r4 ^\f <e, e'>8.[<e e'>16] <e e'>4 r}

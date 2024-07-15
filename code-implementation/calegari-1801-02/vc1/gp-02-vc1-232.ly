@@ -1,0 +1,1 @@
+\relative c''{cs4(e) e32[d cs8.] cs4}

@@ -1,1 +1,1 @@
-\relative c''{<cs, a'>4 r r \bar"||" cs'8. cs16}
+\relative c''{<cs, a'>4 r r \bar"||" \small s4 \normalsize}

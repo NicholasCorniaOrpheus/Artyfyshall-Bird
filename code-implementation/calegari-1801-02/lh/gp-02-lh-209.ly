@@ -1,0 +1,1 @@
+\relative c{<a a'>4 <a a'>8.[<a a'>16] <a a'>4 \bar"||" s4}

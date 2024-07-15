@@ -1,0 +1,1 @@
+\relative c{r8 d[d,] r r4 <e e'>4}

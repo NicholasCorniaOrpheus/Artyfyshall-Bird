@@ -1,0 +1,1 @@
+\relative c''{gs4~\small gs16[b a cs] \normalsize b4 e,8. e16}

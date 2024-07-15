@@ -1,0 +1,1 @@
+\relative c{<e gs>2.  \bar"||" s4}

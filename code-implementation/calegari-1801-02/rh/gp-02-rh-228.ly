@@ -1,0 +1,1 @@
+\relative c''{r4 <fs, b d> <<{<a cs>4 <gs b>} \\ {e2} >>}

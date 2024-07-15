@@ -1,0 +1,1 @@
+\relative c''{\partial 4 <a cs>8. [<b d>16] <cs e>4 <d fs>8[<cs e>] <b d>4 <cs e>8[<b d>]}

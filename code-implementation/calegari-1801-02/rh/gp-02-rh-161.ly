@@ -1,0 +1,1 @@
+\relative c''{<cs, a'>8[<e cs'> <cs a'> <e cs>] <cs a'>4 \bar"||" s}

@@ -1,0 +1,1 @@
+\relative c{\partial 4 r4 r8 gs'[e] r r gs[e] r}

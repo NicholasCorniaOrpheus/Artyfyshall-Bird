@@ -1,1 +1,1 @@
-\relative c''{r8 <a cs>16[<cs e>] <a cs>4 <a cs>8[(<b d>)] <b d>[(<cs e>)]}
+\relative c''{r8 <a cs>16[<cs e>] <a cs>4 \small <a cs>8[(<b d>)] \normalsize <b d>[(<cs e>)]}

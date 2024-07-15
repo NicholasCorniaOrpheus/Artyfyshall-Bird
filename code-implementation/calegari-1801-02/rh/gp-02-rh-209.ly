@@ -1,0 +1,1 @@
+\relative c''{<cs, a'>4 <e cs'>8.[<e cs'>16] <cs a'>4 \bar"||" s4}

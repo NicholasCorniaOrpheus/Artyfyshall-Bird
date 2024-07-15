@@ -1,1 +1,1 @@
-\relative c{<a a'>4 <a a'> <a a'> \bar"||" r}
+\relative c{<a a'>4 <a a'> <a a'> \bar"||" \small s4 \normalsize}

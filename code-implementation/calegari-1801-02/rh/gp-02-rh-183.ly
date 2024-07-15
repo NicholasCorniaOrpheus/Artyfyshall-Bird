@@ -1,0 +1,1 @@
+\relative c''{r4 <gs b>8.[<gs b>16] <gs b>4 r}

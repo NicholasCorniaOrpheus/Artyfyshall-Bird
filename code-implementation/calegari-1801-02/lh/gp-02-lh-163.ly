@@ -1,0 +1,1 @@
+\relative c{fs8[b] e,[a] r <e b'>[<e b'> <cs a'>]}

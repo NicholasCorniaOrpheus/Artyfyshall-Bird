@@ -1,0 +1,1 @@
+\relative c''{gs4~gs16[a b a] gs4 r}

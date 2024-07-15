@@ -1,0 +1,1 @@
+\relative c''{<gs b>4. \fermata (<a cs>8) <gs b>4 r}

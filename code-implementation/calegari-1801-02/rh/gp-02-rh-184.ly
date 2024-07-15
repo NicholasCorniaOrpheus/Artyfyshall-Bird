@@ -1,0 +1,1 @@
+\relative c''{\small <a cs>4 \normalsize <e b'>4 <cs a'>4 r}

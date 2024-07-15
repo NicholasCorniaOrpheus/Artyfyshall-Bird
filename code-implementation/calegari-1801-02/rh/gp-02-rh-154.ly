@@ -1,0 +1,1 @@
+\relative c''{<gs b>8[e'] <gs, b>4 r \tuplet3/2{<e gs>8[<fs a> <gs b>]}}

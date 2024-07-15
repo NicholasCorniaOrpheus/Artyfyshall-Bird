@@ -1,0 +1,1 @@
+\relative c''{cs4 bs!8[b!] a4 gs8. gs16}

@@ -1,0 +1,1 @@
+\relative c''{<e, gs b e>4 r <ds fs b ds!>2}

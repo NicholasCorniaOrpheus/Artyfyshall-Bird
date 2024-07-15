@@ -1,1 +1,1 @@
-\relative c''{\grace{d8} cs8[b16 cs d8] b8 \grace{b8} a8[gs16 a b8] gs}
+\relative c''{\grace{d16} cs8[b16 cs d8] b8 \small \grace{b16} \normalsize a8[gs16 a b8] gs}

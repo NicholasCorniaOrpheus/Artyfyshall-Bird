@@ -1,1 +1,1 @@
-\relative c''{a4 r r \bar"||" e'8. e16}
+\relative c''{a4 r r \bar"||" \small s4 \normalsize }

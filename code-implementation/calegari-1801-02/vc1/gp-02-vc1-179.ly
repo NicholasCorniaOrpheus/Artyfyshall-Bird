@@ -1,0 +1,1 @@
+\relative c''{fs4. e16[d] d8[cs] cs[b]}
