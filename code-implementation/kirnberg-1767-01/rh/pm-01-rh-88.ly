@@ -1,0 +1,1 @@
+\relative c''{fs16[(d) e^! cs^!] \grace{cs4} d2 \bar":|.|:"}

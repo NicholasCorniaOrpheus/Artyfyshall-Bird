@@ -1,0 +1,1 @@
+\relative c{r8 d' d4 d}

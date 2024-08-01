@@ -1,0 +1,1 @@
+\relative c''{d16[fs, g e] \grace{e4} d2 \bar":|.|:"}

@@ -1,0 +1,1 @@
+\relative c''{<<{e,8[e'(] e16 )[g, fs e] e'[g, fs  e]} \\ {d4 cs e } >> }

@@ -1,0 +1,1 @@
+\relative c''{d,8.[fs16] a16[fs d'a] fs'[d a' fs,]}

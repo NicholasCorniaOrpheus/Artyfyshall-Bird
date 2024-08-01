@@ -5,14 +5,14 @@
    \new StaffGroup
    <<
     %Violin2
-    \context Staff = "violin2" \with { instrumentName = "Viol. 2" }
+    \context Staff = "violin1" \with { instrumentName = "Viol. 1" }
     
     <<
     \set Staff.midiInstrument =#"violin" {
 
     \include "voice_option.ly"
     \relative c''{
-    \include "./violin2/pm-01-vln2-2.ly"
+    \include "./violin1/pm-01-vln1-2.ly"
     }
     }  
     
@@ -40,8 +40,7 @@
          %aggregation of violin2 and 2
          \include "voice_option.ly"
           \relative c''{
-         %\include "./rh/pm-01-rh-2.ly"
-         << {\include "./violin2/pm-01-vln2-2.ly" } \\ {\include "./violin2/pm-01-vln2-2.ly" } >>
+         \include "./rh/pm-01-rh-2.ly"
           }
         }
         

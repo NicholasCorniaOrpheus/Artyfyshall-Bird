@@ -1,0 +1,1 @@
+\relative c''{d,8 [fs' fs \trill (e) e \trill (d)]}

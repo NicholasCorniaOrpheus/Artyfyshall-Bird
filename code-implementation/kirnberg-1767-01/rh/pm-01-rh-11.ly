@@ -1,0 +1,1 @@
+\relative c''{<<{ a'8.[e16] fs16[e d cs] \grace{cs8~} d4} \\ {s4 cs fs, } >> }

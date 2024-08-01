@@ -1,0 +1,1 @@
+\relative c''{fs,16[fs a fs]  <<{d8 [a'' g fs] } \\ {s8 fs [e d] } >> }

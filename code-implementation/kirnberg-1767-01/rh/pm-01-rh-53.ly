@@ -1,0 +1,1 @@
+\relative c''{e,16[b'' gs! e] e,8[gs'!] gs4\trill}

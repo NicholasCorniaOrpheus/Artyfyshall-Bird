@@ -1,1 +1,1 @@
-\relative c''{e,8[\tuplet3/2 { gs!16 a b}] e,8[\tuplet3/2{ b'16 cs d]} e,16[b'' gs! d]}
+\relative c''{e,8[\tuplet3/2 { gs!16 a b}] e,8[\tuplet3/2{ b'16 cs d]} e,16[b''( gs! d)]}

@@ -1,0 +1,1 @@
+\relative c''{<<{e,16[gs'! gs a] a[b b cs] cs[d d d,]} \\ {e,16[e' e fs] fs[gs! gs a] a[b b b,]} >> } 

@@ -1,0 +1,1 @@
+\relative c''{e,16[a, g' fs] e[a, g' fs] e4\trill}

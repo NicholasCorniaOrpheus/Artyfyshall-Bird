@@ -1,0 +1,1 @@
+\relative c''{e,16[fs gs! a] b[cs d cs] d[fs e d]}
