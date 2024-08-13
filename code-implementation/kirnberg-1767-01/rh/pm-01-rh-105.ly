@@ -1,0 +1,1 @@
+\relative c''{<<{d,16[fs a d] d4. fs,8 }\\ { } >>}

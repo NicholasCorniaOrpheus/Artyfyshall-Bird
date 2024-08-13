@@ -37,8 +37,7 @@
          \set Staff.midiInstrument =#"harpsichord"
          %aggregation of violin1 and 2
          \include "voice_option.ly"
-<<{\include "./violin1/pm-01-vln1-91.ly" } \\
-  { s2 s8. e''16  } >>
+\include "./rh/pm-01-rh-91.ly"
 }
         
         \context Staff = "lh" {

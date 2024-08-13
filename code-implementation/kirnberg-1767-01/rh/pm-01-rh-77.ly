@@ -1,1 +1,1 @@
-\relative c''{cs16-![e(fs e)] cs-![e(fs e)] \grace{e8~} d4}
+\relative c''{<<{cs16[e  fs e ] cs[e  fs e ] \grace{e8~} d4} \\ {s16 cs[ d cs] s cs[ d cs] \grace{cs8} b4} >> }

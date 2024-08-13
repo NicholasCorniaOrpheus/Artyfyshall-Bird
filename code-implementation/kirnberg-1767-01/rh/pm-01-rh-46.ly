@@ -1,1 +1,1 @@
-\relative c''{fs,16-![fs(g fs) fs[a'(b a)] a4}
+\relative c''{<<{fs,16[fs g fs fs[a' b a] a4} \\ {d,,16[d e d] d[fs' g fs] fs4}  >> }

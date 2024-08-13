@@ -1,1 +1,1 @@
-\relative c''{e,16[fs gs! a] b[cs d cs] d[fs e d]}
+\relative c''{<<{e,16[fs gs! a] b[cs d cs] d[fs e d]} \\ { s4 s8 gs,!8[a b] } >> }

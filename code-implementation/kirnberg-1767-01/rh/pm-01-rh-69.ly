@@ -1,1 +1,1 @@
-\relative c''{a8[\tuplet3/2{a'16 fs d}] a8[\tuplet3/2{fs'16 g a}] \grace{fs8} e4}
+\relative c''{<<{a8[\tuplet3/2{a'16 fs d}] a8[\tuplet3/2{fs'16 g a}] \grace{fs8} e4} \\ {s4 s8 d8 \grace{d8} cs4 } >> }

@@ -1,1 +1,1 @@
-\relative c''{d8[d,] fs8.\trill[e32 d] fs8.\trill[e32 d]}
+\relative c''{d8[d,] fs8.[e32 d] fs8.[e32 d]}

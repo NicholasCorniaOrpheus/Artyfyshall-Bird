@@ -1,1 +1,1 @@
-\relative c''{e,8[b''~] b8[\tuplet3/2{gs!16 a b}] e,,8[gs']}
+\relative c''{<<{e,8[b''~] b8[\tuplet3/2{gs!16 a b}] e,,8[gs']} \\ {s4 s s8 b,} >>}

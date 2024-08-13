@@ -1,1 +1,1 @@
-\relative c''{cs16[(b) a-! gs!-! \grace{gs4~} a2}
+\relative c''{cs16[(b) a-! gs!-!] \grace{gs4(} a2)}

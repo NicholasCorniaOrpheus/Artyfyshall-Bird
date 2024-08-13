@@ -1,1 +1,1 @@
-\relative c''{a16-![cs(d c!)] b-![ ds!(e d!)] cs-![b'(a g)]}
+\relative c''{a16[cs d c!] b[ ds!e d!] cs[b' a g]}

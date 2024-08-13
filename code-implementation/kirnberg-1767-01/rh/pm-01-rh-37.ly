@@ -1,1 +1,1 @@
-\relative c''{d,8[\tuplet3/2{fs16 g a}] d,8[\tuplet3/2{fs'16 g a}] fs4\trill}
+\relative c''{<<{d,8[\tuplet3/2{fs16 g a}] d,8[\tuplet3/2{fs'16 g a}] fs4\trill} \\ {s4 s8 a, a4 } >> }

@@ -1,0 +1,1 @@
+\relative c''{<<{fs,8[a' g fs e d] }\\{s8[fs e a, g fs]  } >>}

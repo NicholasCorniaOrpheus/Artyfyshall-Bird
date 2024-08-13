@@ -1,0 +1,1 @@
+\relative c''{<<{fs8\trill[a16 cs,] \grace{cs4 } d2 }\\{d8. [g,16] \grace{g4} fs2  } >> \bar":|." }

@@ -1,1 +1,1 @@
-\relative c''{b8 a'4 e d8}
+\relative c''{<<{b8 a'4 e d8} \\ {a8 cs4 cs b8 } >> }

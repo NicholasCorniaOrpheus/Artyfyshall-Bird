@@ -1,0 +1,1 @@
+\relative c{gs'!4 r8 b[ gs! e]}

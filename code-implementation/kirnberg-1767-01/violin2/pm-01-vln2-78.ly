@@ -1,1 +1,1 @@
-\relative c''{d,8[d'] d\trill[fs16 d] \grace{d8~} cs4}
+\relative c''{d,8[d'] d\trill[fs16 d] \grace{d8(} cs4)}

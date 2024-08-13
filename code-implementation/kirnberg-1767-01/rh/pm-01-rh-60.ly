@@ -1,1 +1,1 @@
-\relative c''{fs,16[fs a fs] d8[fs' e\trill d]}
+\relative c''{<<{fs,16[fs a fs] d8[fs' e\trill d]} \\ {d,8 s8 s a'[g fs] } >> }

@@ -1,0 +1,1 @@
+\relative c''{e,16[(gs! b) e-!] e4. gs,!8}

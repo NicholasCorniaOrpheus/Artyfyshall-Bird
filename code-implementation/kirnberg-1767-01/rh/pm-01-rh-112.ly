@@ -1,0 +1,1 @@
+\relative c''{<<{e,8[g16 e] a,8[g'16 b] a[g fs e] }\\{  } >>}

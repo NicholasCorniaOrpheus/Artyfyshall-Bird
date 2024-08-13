@@ -1,1 +1,1 @@
-\relative c''{a16[a' e8] e16[(d) cs(b)] a4}
+\relative c''{<<{a16[a' e8] e16[ d  cs b ] a4} \\ {s8 cs cs16[ b  a gs! ] a4} >> }

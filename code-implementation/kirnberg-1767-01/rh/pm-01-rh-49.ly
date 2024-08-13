@@ -1,1 +1,1 @@
-\relative c''{g8[\tuplet3/2{b16 c! d}] g,8[\tuplet3/2{fs'16 g a}] g4}
+\relative c''{<<{g8[\tuplet3/2{b16 c! d}] g,8[\tuplet3/2{fs'16 g a}] g4} \\ {d,4. c!8[d b]} >> }

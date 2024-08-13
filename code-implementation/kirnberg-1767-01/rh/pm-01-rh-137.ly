@@ -1,0 +1,1 @@
+\relative c''{<<{fs,8[fs' e\trill d cs d] }\\{d,8[a' g fs e fs]  } >>}

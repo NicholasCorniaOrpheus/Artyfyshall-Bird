@@ -1,1 +1,1 @@
-\relative c''{e,8[b''~] b16[a gs! fs] e[(fs) b,-! d-!]}
+\relative c''{e,8[b''~] b16[a gs! fs] e[fs b, d]}

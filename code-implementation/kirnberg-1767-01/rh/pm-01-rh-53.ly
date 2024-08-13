@@ -1,1 +1,1 @@
-\relative c''{e,16[b'' gs! e] e,8[gs'!] gs4\trill}
+\relative c''{<<{e,16[b'' gs! e] e,8[gs'!] gs4\trill} \\ {s4 s8 b,8 b4  } >> }

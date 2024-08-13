@@ -1,0 +1,1 @@
+\relative c''{<<{d,16[fs e\trill d] a'[fs e\trill d] d'[fs, e\trill d] }\\{ } >>}

@@ -1,0 +1,1 @@
+\relative c''{<<{fs,8[fs'~] fs16[a g b] a4 }\\{d,,8[d'] d16[fs e g] fs4  } >>}

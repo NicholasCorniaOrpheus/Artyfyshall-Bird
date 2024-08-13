@@ -1,0 +1,1 @@
+\relative c{cs'8[a] r b[cs a]}

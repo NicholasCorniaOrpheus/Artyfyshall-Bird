@@ -1,0 +1,1 @@
+\relative c''{<<{g16[b d g] b[g d b] g[d b g] }\\{ } >>}

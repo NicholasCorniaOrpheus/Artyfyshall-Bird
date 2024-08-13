@@ -1,1 +1,1 @@
-\relative c''{e,8[\tuplet3/2{gs!16 a b}] e,8[\tuplet3/2{gs'!16 a b}] gs4\trill}
+\relative c''{<<{e,8[\tuplet3/2{gs!16 a b}] e,8[\tuplet3/2{gs'!16 a b}] gs4\trill} \\ {s4 s8 b,8 b4 } >> }

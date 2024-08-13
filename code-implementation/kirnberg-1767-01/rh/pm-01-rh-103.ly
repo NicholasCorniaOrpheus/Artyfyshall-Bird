@@ -1,0 +1,1 @@
+\relative c''{<<{d,8 a4 fs''8 [fs e] }\\{s4. d8[d cs]  } >>}

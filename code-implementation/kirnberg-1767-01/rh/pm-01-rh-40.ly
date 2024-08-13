@@ -1,1 +1,1 @@
-\relative c''{fs,16[a b cs] d[fs g e] \grace{d8} fs8.[g,16]}
+\relative c''{<<{fs,16[a b cs] d[fs g e] \grace{d8} fs8.[g,16]} \\ {d16[fs g e] fs[d' e cs] \grace{cs8} d8.[e,16]} >> }

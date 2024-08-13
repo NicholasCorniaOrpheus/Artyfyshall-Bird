@@ -1,0 +1,1 @@
+\relative c''{<<{e,8.[gs!16] b[d cs e] d[fs e gs,!] }\\{ } >>}

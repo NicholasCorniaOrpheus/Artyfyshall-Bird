@@ -1,1 +1,1 @@
-\relative c''{fs16[(d) e-! cs-!] \grace{cs4} d2 \bar":|."}
+\relative c''{<<{fs16[d e cs] \grace{cs4} d2} \\ {d8 [r16 g,] \grace{g4} fs2 } >> \bar":|."}

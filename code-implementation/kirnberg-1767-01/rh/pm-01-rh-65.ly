@@ -1,1 +1,1 @@
-\relative c''{e,8[d'~] d8\trill[fs16 d] b8[cs16 d]}
+\relative c''{<<{e,8[d'] d8\trill[fs16 d] b8[cs16 d]} \\ {s8 b b s gs![a16 b] } >> }
