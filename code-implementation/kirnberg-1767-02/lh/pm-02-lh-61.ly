@@ -1,0 +1,1 @@
+\relative c{a4 a8[cs e g]}

@@ -14,8 +14,7 @@ def abjad_appendmeasure_fragment(measure_number,voice_number):
 	if voice_number == 1:
 		input_measure = r'\include "../violin2/pm-01-vln2-'+str(measure_number)+r'.ly"'
 	if voice_number == 2:
-		#merge vln1 and 2 in right hand
-		input_measure = r'<<{\include "../violin1/pm-01-vln1-'+str(measure_number)+r'.ly" } \\ { \include "../violin2/pm-01-vln2-'+str(measure_number)+r'.ly" } >>'
+		input_measure = r'\include "../rh/pm-01-rh-'+str(measure_number)+r'.ly"'
 	if voice_number == 3:
 		input_measure = r'\include "../lh/pm-01-lh-'+str(measure_number)+r'.ly"'
 	return input_measure
@@ -116,21 +115,21 @@ def abjad_make_score(include_s,include_length,choices):
 print ("List of possible fragments:")
 # measure choices
 measure_list = [
-[70,10,42,62,44],
-[34,24,6,8,56],
-[68,50,60,36,40,4],
-[18,46,2,12,79,28],
-[32,14,52,16,48,22],
-[58,26,66,38,54,64],
+[70,10,42,62,44,72,114,123,131,138,144],
+[34,24,6,8,56,30,112,116,147,151,153],
+[68,50,60,36,40,4,126,137,143,118,146],
+[18,46,2,12,79,28,87,110,113,124,128],
+[32,14,52,16,48,22,89,91,101,141,150],
+[58,26,66,38,54,64,88,98,115,127,154],
 #Second part
-[80,20,82,42,78,69],
-[11,77,3,41,84,63],
-[59,65,9,45,29,7],
-[35,5,83,17,76,47],
-[74,27,67,37,61,19],
-[13,71,1,49,57,31],
-[21,15,53,73,51,81],
-[33,39,25,23,75,55]
+[80,20,82,42,78,69,90,129,103,142,152],
+[11,77,3,41,84,63,92,99,140,149,102],
+[59,65,9,45,29,7,86,107,111,97,135],
+[35,5,83,17,76,47,94,122,145,134,148],
+[74,27,67,37,61,19,96,105,133,120,136],
+[13,71,1,49,57,31,85,93,109,100,108],
+[21,15,53,73,51,81,95,106,117,119,130],
+[33,39,25,23,75,55,104,121,125,132,139]
 ]
 
 result =[]

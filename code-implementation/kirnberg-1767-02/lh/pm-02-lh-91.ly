@@ -1,0 +1,1 @@
+\relative c{fs8.[g16] a4 a,}

@@ -1,0 +1,1 @@
+\relative c{fs8[g] a4 a,}

@@ -1,0 +1,1 @@
+\relative c''{<<{a,4 e'16\trill[d e fs] g4 }\\{s4 cs,8.[d16] e4  } >>}

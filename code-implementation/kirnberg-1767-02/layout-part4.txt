@@ -1,0 +1,6 @@
+
+}
+        
+        \context Staff = "lh" {
+         \set Staff.midiInstrument =#"harpsichord"
+         \include"bassline_option.ly"

@@ -32,6 +32,7 @@ psub = \markup { \dynamic p \italic subito }
     subtitle = \markup{ "Berlin, 1767" }
     copyright = \markup{ "Orpheus Institute, Resounding Libraries" }
     tagline = \markup {" Who’s Afraid of the Artyfyshall Byrd?, 2023 "}
+  piece = \markup{"Polonoise"}
 }
 
 %\include "oll-core/package.ily"

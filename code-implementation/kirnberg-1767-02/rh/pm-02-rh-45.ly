@@ -1,0 +1,1 @@
+\relative c''{g,8[b a\trill g] b'4}

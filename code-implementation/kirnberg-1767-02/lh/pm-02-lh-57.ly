@@ -1,0 +1,1 @@
+\relative c{fs4. g8 fs4}

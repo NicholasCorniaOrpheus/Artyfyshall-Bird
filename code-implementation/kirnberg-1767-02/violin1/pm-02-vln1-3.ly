@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{gs'!8[(a b)]} gs2\trill}

@@ -1,0 +1,1 @@
+\relative c{d fs a8[g]}

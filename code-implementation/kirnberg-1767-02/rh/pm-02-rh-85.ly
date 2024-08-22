@@ -1,0 +1,1 @@
+\relative c''{d,2. \bar":|."}

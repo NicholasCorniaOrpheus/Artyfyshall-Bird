@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{a'8[(e d)]} \tuplet3/2{cs[(b a)]} \tuplet3/2{gs![(a b)]}}

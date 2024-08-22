@@ -1,0 +1,1 @@
+\relative c''{a8[g' fs\trill e] fs4}

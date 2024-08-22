@@ -1,0 +1,1 @@
+\relative c{a4 cs8[e g, g']}

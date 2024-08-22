@@ -1,0 +1,1 @@
+\relative c''{fs8[d,] r a''[cs,(d)]}

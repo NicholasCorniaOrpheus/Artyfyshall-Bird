@@ -1,0 +1,1 @@
+\relative c{fs8[e] d4. fs8}

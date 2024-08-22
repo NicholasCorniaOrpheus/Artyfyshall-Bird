@@ -1,0 +1,1 @@
+\relative c''{a4 g16[fs e d] cs[a' cs e]}

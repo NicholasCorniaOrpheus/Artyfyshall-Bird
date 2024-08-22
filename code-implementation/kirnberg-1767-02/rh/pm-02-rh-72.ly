@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{d8[(a b)]} fs4 e\trill}

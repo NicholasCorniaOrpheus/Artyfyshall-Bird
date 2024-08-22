@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{fs8[(g a)]} fs4 \tuplet3/2{cs8[(d e)]}}
