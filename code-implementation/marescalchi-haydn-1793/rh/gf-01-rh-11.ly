@@ -1,0 +1,1 @@
+\relative c''{fs8[e16 d] <a cs>4 <gs! b>}

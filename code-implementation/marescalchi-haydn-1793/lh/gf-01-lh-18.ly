@@ -1,0 +1,1 @@
+\relative c{r4 \tuplet3/2{fs8[a d]} \tuplet3/2{fs,[a d]}}

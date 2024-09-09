@@ -1,0 +1,1 @@
+\relative c{fs8[d' e, cs' d, d']}

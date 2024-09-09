@@ -1,0 +1,1 @@
+\relative c''{a8.[d16] <d fs>4 <cs e>}

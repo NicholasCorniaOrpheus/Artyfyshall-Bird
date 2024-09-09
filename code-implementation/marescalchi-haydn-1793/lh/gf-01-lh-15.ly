@@ -1,0 +1,1 @@
+\relative c{r4 <g' cs e> <g cs e>}

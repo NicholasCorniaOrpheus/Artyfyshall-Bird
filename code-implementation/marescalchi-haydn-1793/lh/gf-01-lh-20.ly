@@ -1,0 +1,1 @@
+\relative c{r4 e8[fs] g4}

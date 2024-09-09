@@ -1,0 +1,1 @@
+\relative c''{fs16[a fs d] cs4 b\trill}

@@ -1,0 +1,1 @@
+\relative c{<<{g'4 e fs} \\ {d2 d4}>>}

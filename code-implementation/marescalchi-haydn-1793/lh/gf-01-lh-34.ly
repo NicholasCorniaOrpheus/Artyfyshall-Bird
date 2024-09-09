@@ -1,0 +1,1 @@
+\relative c{<<{a'2.} \\ {fs4 g fs}>>}
