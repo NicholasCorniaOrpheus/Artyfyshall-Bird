@@ -1,1 +1,1 @@
-\relative c{r4 a8[a' a, a']}
+\relative c{r4 \stemUp a8[\stemDown a' \stemUp a, \stemDown a' \stemNeutral]}

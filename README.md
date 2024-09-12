@@ -1,6 +1,7 @@
 # Artyfyshall-Bird
 
-A collection of digital implementation of pre-digital generative models for music composition, from the period between 1600 and 1850. 
+A collection of pre-digital generative models for music composition from the period between 1600 and 1850. 
+Part of the music tratises has been transcribed in [Lilypond](https://lilypond.org/) format and emulated with a Python implementation using the [Abjad](https://abjad.github.io/) library.
 
 The code is part of an upcoming publication of the authors for ISMIR 2024. 
 

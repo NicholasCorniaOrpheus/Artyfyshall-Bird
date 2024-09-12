@@ -1,0 +1,1 @@
+\relative c''{a4 <e' cs'>4 <fs d'>}

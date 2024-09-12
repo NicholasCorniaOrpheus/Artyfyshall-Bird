@@ -1,1 +1,1 @@
-\relative c''{a'8[a, g' g,] fs'4}
+\relative c''{\stemUp a'8[a, g' g,] \stemNeutral fs'4}

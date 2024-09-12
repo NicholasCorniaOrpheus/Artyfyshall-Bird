@@ -1,0 +1,1 @@
+\relative c''{cs16[d b gs!] e8[\stemDown d'] \stemNeutral cs4}

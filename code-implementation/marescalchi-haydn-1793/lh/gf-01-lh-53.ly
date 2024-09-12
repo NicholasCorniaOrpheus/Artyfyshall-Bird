@@ -1,0 +1,1 @@
+\relative c{<<{r4  g'' fs} \\ {a,2 d4}>>}

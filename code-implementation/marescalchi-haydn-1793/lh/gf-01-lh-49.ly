@@ -1,0 +1,1 @@
+\relative c{r4 g''4 fs}

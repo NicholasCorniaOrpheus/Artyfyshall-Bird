@@ -1,0 +1,1 @@
+\relative c{r4 a \stemUp d \stemNeutral}
