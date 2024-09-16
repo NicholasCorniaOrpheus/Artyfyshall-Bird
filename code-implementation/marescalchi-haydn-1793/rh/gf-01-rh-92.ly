@@ -1,0 +1,1 @@
+\relative c''{d8.[fs16] e8.[g16] fs4}

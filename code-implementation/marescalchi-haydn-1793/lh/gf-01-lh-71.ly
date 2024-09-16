@@ -1,0 +1,1 @@
+\relative c{g'!8[g' fs, fs' e, e']}

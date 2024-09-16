@@ -1,0 +1,1 @@
+\relative c{g'8 r e r \stemDown cs \stemNeutral r}

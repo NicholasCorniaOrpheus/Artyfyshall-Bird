@@ -1,0 +1,1 @@
+\relative c''{b8[<g' b> < fs a> <e g> <d fs> <cs e>]}

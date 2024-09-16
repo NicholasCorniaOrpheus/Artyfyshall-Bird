@@ -1,0 +1,1 @@
+\relative c''{<<{a'8.[b16] g8.[a16] fs4} \\ {fs4 e d} >>}

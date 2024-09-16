@@ -1,0 +1,1 @@
+\relative c''{a4 <fs' a> <ds! fs>}

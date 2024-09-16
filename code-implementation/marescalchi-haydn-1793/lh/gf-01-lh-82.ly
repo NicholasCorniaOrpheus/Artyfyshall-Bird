@@ -1,0 +1,1 @@
+\relative c{<d fs>8 r <e g> r <fs a> r}
