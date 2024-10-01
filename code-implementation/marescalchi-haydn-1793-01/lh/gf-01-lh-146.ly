@@ -1,0 +1,1 @@
+\relative c{<<{r4 fs4 b} \\ {d,2.}>>}

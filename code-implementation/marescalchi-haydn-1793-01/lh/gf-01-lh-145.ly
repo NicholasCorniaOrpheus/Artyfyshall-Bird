@@ -1,0 +1,1 @@
+\relative c{<<{r4 fs' e} \\ {g,4 a2}>>}

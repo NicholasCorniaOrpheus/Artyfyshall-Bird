@@ -1,0 +1,1 @@
+\relative c{<fs, fs'>4 <g g'> r}

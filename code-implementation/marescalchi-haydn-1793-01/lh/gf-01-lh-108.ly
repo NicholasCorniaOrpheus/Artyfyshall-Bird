@@ -1,0 +1,1 @@
+\relative c{r8 \stemDown a[cs e a \stemUp a, \stemNeutral]}

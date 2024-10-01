@@ -1,0 +1,1 @@
+\relative c''{<fs a d>4 d'16[cs b a] g[fs e d]}

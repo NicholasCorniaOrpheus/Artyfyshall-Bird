@@ -1,0 +1,1 @@
+\relative c{<<{r4 \small fs' \normalsize e} \\ {g, a2}>>}

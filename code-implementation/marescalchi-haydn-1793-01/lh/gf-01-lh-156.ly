@@ -1,0 +1,1 @@
+\relative c{<<{fs'4 e d} \\ {a2 d,4}>>}

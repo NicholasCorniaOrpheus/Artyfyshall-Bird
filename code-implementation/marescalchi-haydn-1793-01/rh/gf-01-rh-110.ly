@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{a8[cs e]} <e, g!>4 fs8.[d16]}

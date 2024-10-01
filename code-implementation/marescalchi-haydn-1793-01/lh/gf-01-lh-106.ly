@@ -1,0 +1,1 @@
+\relative c{<<{a'2 gs!4} \\ {d e2}>>}

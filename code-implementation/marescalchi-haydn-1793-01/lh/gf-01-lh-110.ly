@@ -1,0 +1,1 @@
+\relative c{r4 \stemDown cs  \stemNeutral d8.[fs16]}

@@ -1,0 +1,1 @@
+\relative c''{d8.[g16] g8.\trill[fs32 g] b4}

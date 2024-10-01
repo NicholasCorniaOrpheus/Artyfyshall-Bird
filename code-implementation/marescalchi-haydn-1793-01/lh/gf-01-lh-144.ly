@@ -1,0 +1,1 @@
+\relative c{r4 \tuplet3/2{g'8[b d]} \tuplet3/2{g,[b d]}}

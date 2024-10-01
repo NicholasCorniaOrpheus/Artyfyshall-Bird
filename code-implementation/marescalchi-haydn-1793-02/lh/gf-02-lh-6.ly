@@ -1,0 +1,1 @@
+\relative c{\tuplet3/2{a'8[c d]} \tuplet3/2{a[c d]} \tuplet3/2{a[c d]}}

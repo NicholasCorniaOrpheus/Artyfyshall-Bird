@@ -1,0 +1,1 @@
+\relative c''{\stemDown a4^(\stemNeutral a16)[b cs d] e[fs g a]}

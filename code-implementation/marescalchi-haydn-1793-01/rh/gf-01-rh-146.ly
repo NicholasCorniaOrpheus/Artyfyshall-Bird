@@ -1,0 +1,1 @@
+\relative c''{r8 \stemUp fs,8-![as!(b) d(fs)] \stemNeutral} 

@@ -1,0 +1,1 @@
+\relative c{s4 a'4 s}

@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{a'8[fs d]} a4 d}

@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{d8[e f!]} \tuplet3/2{b,[c d]} \stemDown \tuplet3/2{ g,[a b]} \stemNeutral}

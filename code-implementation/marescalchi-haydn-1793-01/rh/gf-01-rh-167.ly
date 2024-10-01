@@ -1,0 +1,1 @@
+\relative c''{a'8[\stemUp a, \stemDown g' \stemUp g,] \stemNeutral fs'4}

@@ -1,0 +1,1 @@
+\relative c''{fs8[g!] e2 \bar"||"}

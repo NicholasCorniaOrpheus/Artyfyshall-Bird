@@ -1,0 +1,1 @@
+\relative c''{<<{d4 e16[d e fs] d4} \\ {<d, fs>4 \small g \normalsize <d fs>}>>}

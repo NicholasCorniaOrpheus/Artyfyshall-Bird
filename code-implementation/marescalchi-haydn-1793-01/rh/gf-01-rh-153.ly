@@ -1,0 +1,1 @@
+\relative c''{\stemDown gs!8[d' d cs cs b] \stemNeutral}

@@ -1,0 +1,1 @@
+\relative c''{cs!8[(e) g(e) cs(e)]}

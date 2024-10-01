@@ -1,0 +1,1 @@
+\relative c''{<fs, d'>4 cs'16[(d8.)] cs16[(d8.)]}

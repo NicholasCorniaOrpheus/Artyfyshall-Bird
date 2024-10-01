@@ -1,0 +1,1 @@
+\relative c{\tuplet3/2{e8[g! b]} \tuplet3/2{e,[g b]} \tuplet3/2{e,[g b]} \bar"||"}

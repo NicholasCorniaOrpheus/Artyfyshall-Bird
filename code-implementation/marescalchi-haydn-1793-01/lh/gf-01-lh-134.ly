@@ -1,0 +1,1 @@
+\relative c{a'4 g!8[fs e d]}

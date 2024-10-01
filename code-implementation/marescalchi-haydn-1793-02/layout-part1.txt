@@ -1,0 +1,11 @@
+\include "paper_settings.ly"
+
+\score{
+ << 
+  %Harpsichord
+    \context PianoStaff \with { instrumentName = ""}
+    <<
+      
+       \context Staff = "rh" {
+         \set Staff.midiInstrument =#"harpsichord"
+         \include "voice_option.ly"

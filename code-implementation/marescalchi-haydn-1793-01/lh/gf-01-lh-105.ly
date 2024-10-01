@@ -1,0 +1,1 @@
+\relative c{r4 \tuplet3/2{e8[gs! b]} \tuplet3/2{e,[gs b]}}

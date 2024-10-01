@@ -1,0 +1,1 @@
+\relative c''{<d fs>8[<fs a>] <fs a>2}
