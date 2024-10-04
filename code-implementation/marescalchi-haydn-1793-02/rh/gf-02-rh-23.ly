@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{b8[d g]} fs-![fs] \tuplet3/2{g[b d,]}}

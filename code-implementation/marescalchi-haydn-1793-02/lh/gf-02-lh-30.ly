@@ -1,0 +1,1 @@
+\relative c{r8 e[g c fs, d']}

@@ -1,12 +1,16 @@
 #This script will assemble a given measure, according to a specific voice path
-
+import os
 vln1path="./violin1/pm-02-vln1-"
 #vln2path="./violin2/pm-01-vln2-"
 rhpath="./rh/pm-02-rh-"
 lhpath="./lh/pm-02-lh-"
-#Input values
-print("Insert measure number")
-measure = input()
+filepath = "pm-02-"
+#Input values 
+exists = True
+while exists == True:
+	print("Insert measure number")
+	measure = input()
+	exists = os.path.exists(filepath+str(measure)+".ly")
 print("Insert violin1 part:")
 print(r""" \relative c''{""")
 vln1 = input()

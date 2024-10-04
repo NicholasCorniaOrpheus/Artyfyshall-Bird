@@ -1,0 +1,1 @@
+\relative c''{<a a'>4 <b b'> cs!}

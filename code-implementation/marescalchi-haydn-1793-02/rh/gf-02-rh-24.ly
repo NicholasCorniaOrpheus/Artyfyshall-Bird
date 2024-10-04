@@ -1,0 +1,1 @@
+\relative c''{e16[fs g fs] \grace{a16} g8[fs16 e] \grace{fs16} e8[d16 cs!]}

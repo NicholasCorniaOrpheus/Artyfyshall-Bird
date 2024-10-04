@@ -1,10 +1,14 @@
 #This script will assemble a given measure, according to a specific voice path
-
+import os
 rhpath="./rh/ws-02-rh-"
 lhpath="./lh/ws-02-lh-"
-#Input values
-print("Insert measure number")
-measure = input()
+filepath = "ws-02-"
+#Input values 
+exists = True
+while exists == True:
+	print("Insert measure number")
+	measure = input()
+	exists = os.path.exists(filepath+str(measure)+".ly")
 print("Insert right hand part:")
 print(r""" \relative c''{""")
 rh = input()

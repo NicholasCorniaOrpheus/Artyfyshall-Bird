@@ -1,0 +1,1 @@
+\relative c{<<{c' b c} \\ {c, d2}>>}
