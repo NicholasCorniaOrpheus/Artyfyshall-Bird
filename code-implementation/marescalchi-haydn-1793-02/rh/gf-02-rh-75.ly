@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{d,8[g b]} d4 d}

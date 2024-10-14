@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{e8[fs g]} \tuplet3/2{cs,![d e]} \tuplet3/2{a,[b cs]}}

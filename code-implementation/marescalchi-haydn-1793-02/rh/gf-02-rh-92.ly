@@ -1,0 +1,1 @@
+\relative c''{\stemDown c16[b c g] \stemNeutral d'[c d g,] e'4}

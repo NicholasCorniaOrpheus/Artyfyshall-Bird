@@ -1,0 +1,1 @@
+\relative c''{d8 \stemUp <a a'>4 <g g'> <fs fs'>8 \stemNeutral}

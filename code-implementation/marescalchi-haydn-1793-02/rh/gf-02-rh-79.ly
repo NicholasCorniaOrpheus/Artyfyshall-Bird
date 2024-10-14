@@ -1,0 +1,1 @@
+\relative c''{\stemUp <g e'>8[<fs d'>] \stemNeutral <fs d'>2}

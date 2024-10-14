@@ -1,0 +1,1 @@
+\relative c{\stemUp d4 \stemNeutral a8[fs] d4}

@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{g'8[f! d]} b4 b}

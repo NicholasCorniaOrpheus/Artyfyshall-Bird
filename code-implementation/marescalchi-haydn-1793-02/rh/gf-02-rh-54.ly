@@ -1,0 +1,1 @@
+\relative c''{\stemUp \tuplet3/2{d8[c a]} fs4 \tuplet3/2{d'8[c a]} \stemNeutral}

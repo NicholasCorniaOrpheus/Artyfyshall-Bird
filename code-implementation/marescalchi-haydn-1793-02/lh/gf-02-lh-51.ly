@@ -1,0 +1,1 @@
+\relative c{d16[fs a c] r4 <fs,, fs'>4}

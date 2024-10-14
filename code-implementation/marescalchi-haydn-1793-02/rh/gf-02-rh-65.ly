@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{a8[cs! e]} g[e d cs]}

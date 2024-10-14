@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{e8[g c,]} \stemUp \tuplet3/2{b[d g,]} \stemNeutral \tuplet3/2{c[a fs]}}

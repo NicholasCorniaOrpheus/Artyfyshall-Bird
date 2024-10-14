@@ -1,0 +1,1 @@
+\relative c{<g g'>4 r \stemUp <a a'> \stemNeutral}

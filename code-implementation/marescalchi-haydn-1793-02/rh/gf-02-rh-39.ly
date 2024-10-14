@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{d8[c a]} fs4 r}

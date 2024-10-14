@@ -29,6 +29,7 @@ right-margin = 1.8 \cm
     composer = \markup { "Joseph Haydn (attr.)" }
     title = \markup { "Gioco Filarmonico ... []" }
     subtitle = \markup{ "Napoli, 1793" }
+    piece = \markup{ "Tavola per li Trio"}
     copyright = \markup{ "Orpheus Institute, Resounding Libraries" }
     tagline = \markup {" Who’s Afraid of the Artyfyshall Byrd?, 2023 "}
 }

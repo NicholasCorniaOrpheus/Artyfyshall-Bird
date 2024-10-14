@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{a'8[g e]} cs!4 cs}

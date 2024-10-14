@@ -1,0 +1,1 @@
+\relative c''{\tuplet3/2{b8[d b]} f'!-![f-!] \tuplet3/2{f[d b]}}

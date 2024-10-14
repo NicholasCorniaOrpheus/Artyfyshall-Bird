@@ -1,0 +1,1 @@
+\relative c{\stemDown e8[a, fs' a, g' a,] \stemNeutral}

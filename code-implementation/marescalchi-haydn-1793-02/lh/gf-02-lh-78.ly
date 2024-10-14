@@ -1,0 +1,1 @@
+\relative c{<<{c'4 b a} \\ {c, d2}>>}

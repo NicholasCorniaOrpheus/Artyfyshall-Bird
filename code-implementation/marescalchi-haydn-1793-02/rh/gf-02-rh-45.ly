@@ -1,0 +1,1 @@
+\relative c''{c8[b c e] g4}

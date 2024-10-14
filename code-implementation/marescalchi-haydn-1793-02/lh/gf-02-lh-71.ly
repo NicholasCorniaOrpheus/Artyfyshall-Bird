@@ -1,0 +1,1 @@
+\relative c{d'4 a8[fs] d4}

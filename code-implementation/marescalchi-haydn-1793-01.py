@@ -51,7 +51,7 @@ def abjad_make_score(include_s,include_length,choices):
 	for i in range(include_length):
 		block.items.append(include_s[0][i])
 		if i ==(first_part_length-1):
-			#block.items.append(r'\bar":|.|:"')
+			block.items.append(r'\bar"||"')
 			#block.items.append(r'\break')
 			block.items.append(r'\mark \markup{Seconda parte del minuetto}')
 	block.items.append(r'\bar"|."')
