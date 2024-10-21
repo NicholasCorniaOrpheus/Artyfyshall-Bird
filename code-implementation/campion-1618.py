@@ -2,20 +2,38 @@ import abjad
 import os
 import random
 
-bassus_melody = []
+def import_bass_melody():
+	bassus_melody_filename = "./campion-1618/bassus_melody.ly"
+	bassus_melody_file = open(bassus_melody_filename,'r')
+	bassus_melody = bassus_melody_file.read().split(" ")
+	for i in range(len(bassus_melody)):
+		bassus_melody[i]=abjad.NamedPitch(bassus_melody[i])
+	return bassus_melody
+
+def melody2interval(mel):
+	# Input abjad.NamedPitch melody list
+	#Output abjad.NamedInterval list
+	intervals = []
+	for i in range(len(mel)-1):
+		#returns named interval between pitches
+		intervals.append(mel[i]-mel[i+1])
+	return intervals
+
+
+bassus_melody = import_bass_melody()
 tenor_melody = []
 altus_melody = []
 cantus_melody = []
 #pitch=abjad.NamedPitch(bassus_melody)
-bassus_intervals = []
+bassus_intervals = melody2interval(bassus_melody)
 
 
+# Note: insert only the pitch in Lilypond absolute value, without any duration!
 
-
-#Input first note of the bassus_
-print("Insert first note of the bassus:")
-pitch=abjad.NamedPitch(input())
-bassus_melody.append(pitch)
+#Input first note of the bassus
+print("Bass melody imported via bass_melody.ly file")
+#pitch=abjad.NamedPitch(input())
+#bassus_melody.append(pitch)
 print("Insert first note of the tenor:")
 pitch=abjad.NamedPitch(input())
 tenor_melody.append(pitch)
@@ -27,18 +45,18 @@ pitch=abjad.NamedPitch(input())
 cantus_melody.append(pitch)
 
 #Add intervals for the bassline:
-exit = 0
-while exit == 0:
-	print("Insert a new interval for the bassus in number of semitones, like -7 for a descending fifth, or using interval name, like +M3 for ascending major third :")
-	bassus_intervals.append(abjad.NamedInterval(input()))
-	bassus_melody.append(bassus_melody[-1]+bassus_intervals[-1])
-	print ("Would you like to exit? yes/no")
-	answer = input()
-	print(bassus_melody)
-	if answer =="yes":
-		exit=1
-	else:
-		exit=0
+#exit = 0
+#while exit == 0:
+	#print("Insert a new interval for the bassus in number of semitones, like -7 for a descending fifth, or using interval name, like +M3 for ascending major third :")
+	#bassus_intervals.append(abjad.NamedInterval(input()))
+	#bassus_melody.append(bassus_melody[-1]+bassus_intervals[-1])
+	#print ("Would you like to exit? yes/no")
+	#answer = input()
+	#print(bassus_melody)
+	#if answer =="yes":
+		#exit=1
+	#else:
+		#exit=0
 
 def simplify_more(p):
 	# Improvided version of simplify function in abjad
@@ -338,13 +356,10 @@ def make_scale(tonic, intervals):
         pitches.append(pitch)
     return pitches
 
+# KEY and SIGNATURE
 
 key = abjad.KeySignature(abjad.NamedPitchClass("c"), abjad.Mode("major"))
 time = abjad.TimeSignature((2,1))
-
-#Generate mode:
-#intervals = "M2 M2 m2 M2 M2 M2 m2".split()
-#intervals = [abjad.NamedInterval(_) for _ in intervals]
 
 #mode = make_scale("c",intervals)
 
@@ -399,7 +414,7 @@ right-margin = 1.8 \cm
     title = \markup { "A new way of making foure parts in counterpoint" }
     subtitle = \markup {"London, 1615"}
     copyright = \markup{ "Orpheus Institute, Resounding Libraries" }
-    tagline = \markup {" Who’s Afraid of the Artyfyshall Byrd?, 2023 "}
+    tagline = \markup {" Who’s Afraid of the Artyfyshall Byrd?, 2024 "}
 }
 
 %\include "oll-core/package.ily"
@@ -407,7 +422,11 @@ right-margin = 1.8 \cm
 
 %opts.exporter = #exportMusicXML
 
-\midi{\tempo 1 = 60}   
+"""
+
+layout = r"""
+
+\midi{\tempo 2 = 100}   
 
 \layout {
   \context {
@@ -438,8 +457,14 @@ right-margin = 1.8 \cm
 
 """
 
-score = abjad.Score([staff_group])
-lilypond_file = abjad.LilyPondFile([preamble,score])
+# ENCODING THE SCORE
+
+block = abjad.Block("score")
+block.items.append(abjad.Container([staff_group]))
+block.items.append(layout)
+#score = abjad.Score([staff_group])
+#lilypond_file = abjad.LilyPondFile([preamble,score])
+lilypond_file = abjad.LilyPondFile([preamble,block])
 abjad.show(lilypond_file, output_directory="./campion-1618/temp/")
 
 #rename the file(s)
