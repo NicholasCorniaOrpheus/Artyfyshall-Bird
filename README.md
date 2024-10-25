@@ -18,7 +18,7 @@ For a detailed list of musical treatises and their digital images and implementa
 
 ## Guidelines for the dataset
 
-Visit the [Technical Report](./documentation/dataset_documentation.md) for more detailed information about the dataset structure.
+Visit the [Technical Report](./documentation/technical_report.md) for more detailed information about the dataset structure.
 
 You can find all the implementation of the aforementioned treatises in the **code-implementation** folder. 
 
