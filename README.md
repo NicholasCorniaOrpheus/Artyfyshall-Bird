@@ -18,6 +18,8 @@ For a detailed list of musical treatises and their digital images and implementa
 
 ## Guidelines for the dataset
 
+Visit the [Technical Report](./documentation/dataset_documentation.md) for more detailed information about the dataset structure.
+
 You can find all the implementation of the aforementioned treatises in the **code-implementation** folder. 
 
 The python programmes are all available on the [**code-implementation**](./code-implementation) directory, while the music transcriptions are recorded into separate directories, according to measure and voice type. Furthermore, you can find the generated scores in the local **output**. The score is encoded in [Lilypond](https://lilypond.org/) open-source format and can be compiled to automatically generate a MIDI and a PDF file of the music.
