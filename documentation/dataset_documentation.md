@@ -16,17 +16,17 @@ In the following examples, we wish to illustrate how the language deals with Wes
 
 It results that the digital engraving is extremely faithful to the original score, reducing any discrepancy between the encoding and the real object recorded on the image to a minimum.
 
-![fig1](./figs/ab-lilypond1.png)
+![fig1](../figs/ab-lilypond1.png)
 
 Example of how Lilypond ecodes musical articulation, such as accents, slurs and beams. Furthermore, the example shows the syntax for polyphonic lines within a staff.
 
-![fig2](./figs/ab-lilypond2.png)
+![fig2](../figs/ab-lilypond2.png)
 
 Example of how Lilypond econdes rhythmn, note clusters, accidentals and stem direction.
 
 ## Dataset
 
-![lilypond](./figs/lilypond-encoding.png)
+![lilypond](../figs/lilypond-encoding.png)
 
 The Artyfyshall Byrd GitHub repository provides several resources and code:
 
