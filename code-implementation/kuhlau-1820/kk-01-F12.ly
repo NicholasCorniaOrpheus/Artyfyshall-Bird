@@ -13,7 +13,7 @@
 }
         
         \context Staff = "lh" {
-         \set Staff.midiInstrument =#"harpsichord"
+         \set Staff.midiInstrument =#"piano"
          \include"bassline_option.ly"
 \include "./lh/kk-01-lh-F12.ly"
 }

@@ -26,11 +26,11 @@ right-margin = 1.8 \cm
 
 
 \header {
-    composer = \markup { "Frederik Kuhlau (1786-1832)" }
-    title = \markup { "Kaleidakunstikon, en musikalsk Underholdning for Claveerspillere" }
-    subtitle = \markup{ "Copenhagen, c.1820" }
+    composer = \markup { "Gustav Gerlach (1791-1831)" }
+    title = \markup { "Kunst, Schottische Tënze zu componiren, ohne musicalisch zu sein" }
+    subtitle = \markup{ "Berlin, c.1830" }
     copyright = \markup{ "Orpheus Institute, Resounding Libraries" }
-    tagline = \markup {" Who’s Afraid of the Artyfyshall Byrd?, 2023 "}
+    tagline = \markup {" Who’s Afraid of the Artyfyshall Byrd?, 2024 "}
 }
 
 %\include "oll-core/package.ily"
