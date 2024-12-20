@@ -1,0 +1,1 @@
+\relative c{c8[c' <b c> <bf c>]}

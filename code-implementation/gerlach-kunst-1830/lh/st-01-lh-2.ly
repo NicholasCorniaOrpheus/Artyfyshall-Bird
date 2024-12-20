@@ -1,0 +1,1 @@
+\relative c{<<{r8 s r s} \\ {\stemNeutral a'8[<c e> f, <a d>]} >>}

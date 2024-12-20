@@ -1,0 +1,1 @@
+\relative c{a8 [<a' c> <a c> <a c>]}
