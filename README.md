@@ -1,4 +1,4 @@
-# Artyfyshall-Bird
+# Artyfyshall Bird
 
 ![artyfyshall_byrd_thumb](./figs/thumbnail_212_NicholasCornia.png)
 
