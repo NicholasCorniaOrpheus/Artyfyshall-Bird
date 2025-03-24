@@ -1,1 +1,1 @@
-\relative c{r8 b[ds! fs b \stemUp b, \stemNeutral]}
+\relative c{r8 b[ds! fs b \stemUp b,] \stemNeutral}

@@ -1,1 +1,1 @@
-\relative c{<e gs! b>8^\f [\slashedGrace{ds'!} e] e,4}
+\relative c{<e gs! b>8^\f [\slashedGrace{ds'!} e] e,4 \clef"bass"}

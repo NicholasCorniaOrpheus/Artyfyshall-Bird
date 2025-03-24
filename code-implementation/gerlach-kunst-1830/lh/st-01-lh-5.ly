@@ -1,0 +1,1 @@
+\relative c{\clef "treble" <<{r8 <b' e>8[<d e> <d e>]} \\ {gs,!2} >> \clef "bass"}

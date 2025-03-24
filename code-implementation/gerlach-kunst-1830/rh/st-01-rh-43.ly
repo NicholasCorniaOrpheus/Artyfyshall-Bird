@@ -1,0 +1,1 @@
+\relative c''{a8[bf!16 b!] \tuplet3/2{c8[f a,]}}

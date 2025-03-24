@@ -1,0 +1,1 @@
+\relative c{gs'!8[<d' e> b <d e>]}

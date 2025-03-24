@@ -1,0 +1,1 @@
+\relative c''{c'8[d, b' d,]}

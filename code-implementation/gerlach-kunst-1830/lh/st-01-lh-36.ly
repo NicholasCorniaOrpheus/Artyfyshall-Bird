@@ -1,0 +1,1 @@
+\relative c{<f a d>4 <fs! a d>}

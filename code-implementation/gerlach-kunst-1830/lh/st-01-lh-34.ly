@@ -1,0 +1,1 @@
+\relative c{<a' c>8[<a e'>] <a c>4}

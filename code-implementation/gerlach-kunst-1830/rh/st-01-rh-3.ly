@@ -1,0 +1,1 @@
+\relative c''{<b g'>8[<c fs!>] <b g'>4}

@@ -1,0 +1,1 @@
+\relative c''{g8^\finger "2" [c16^\finger "1" d] e[f g8]}

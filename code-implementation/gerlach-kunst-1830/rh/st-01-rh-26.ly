@@ -1,0 +1,1 @@
+\relative c''{\stemUp a8[c e a] \stemNeutral}

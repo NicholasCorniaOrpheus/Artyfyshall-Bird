@@ -1,0 +1,1 @@
+\relative c{\clef "bass" <<{s8 <cs'! e>8[<cs g'> <cs g'>]} \\ {a4 s}>>}

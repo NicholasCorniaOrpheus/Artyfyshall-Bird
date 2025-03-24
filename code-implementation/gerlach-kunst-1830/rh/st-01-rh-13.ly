@@ -1,0 +1,1 @@
+\relative c''{<a c>4 \stemDown <g cs!>_\p \stemNeutral}

@@ -1,0 +1,1 @@
+\relative c{\stemDown a'8[c \change Staff = "rh" e a] \change Staff="lh" \stemNeutral }

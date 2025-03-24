@@ -1,0 +1,1 @@
+\relative c{<<{r8 <b' f'> r <b f'>} \\ {g4 g}>>}

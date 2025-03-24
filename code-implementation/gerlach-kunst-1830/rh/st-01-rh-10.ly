@@ -1,0 +1,1 @@
+\relative c''{\stemDown b8[g] g'4 \stemNeutral}

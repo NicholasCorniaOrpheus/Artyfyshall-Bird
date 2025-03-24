@@ -1,0 +1,1 @@
+\relative c''{<e g>8[<g, c>] <c e>4}
