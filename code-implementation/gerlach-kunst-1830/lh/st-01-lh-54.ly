@@ -1,0 +1,1 @@
+\relative c{<<{r8 f' e[d]} \\ {d,4 e8[e]}>>}

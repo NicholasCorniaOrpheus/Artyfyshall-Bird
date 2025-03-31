@@ -1,0 +1,1 @@
+\relative c{a'8[<c f> f, <c' f>]}

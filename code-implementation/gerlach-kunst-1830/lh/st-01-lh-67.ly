@@ -1,0 +1,1 @@
+\relative c{<g' bf! c>4 <f a c>}

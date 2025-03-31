@@ -1,0 +1,1 @@
+\relative c{<<{r8 <a' d>[<a d> <a d>] } \\ {fs!2} >>}

@@ -1,0 +1,1 @@
+\relative c{\small \clef "treble" \normalsize <f' a>8[c] f,4 \small \clef "bass" \normalsize}

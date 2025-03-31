@@ -1,0 +1,1 @@
+\relative c''{a'16[b c d] e8[gs,!]}

@@ -1,0 +1,1 @@
+\relative c{<<{r8 b'[b b]} \\ {g2} >>}

@@ -1,0 +1,1 @@
+\relative c{<<{r8 s r s} \\ {e8[<c' e> e, <b' d>]} >>}

@@ -1,0 +1,1 @@
+\relative c''{c16[d e d] c4}
