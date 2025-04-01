@@ -1,0 +1,1 @@
+\relative c{bf!8[<bf' d> <bf d> <bf d>]}

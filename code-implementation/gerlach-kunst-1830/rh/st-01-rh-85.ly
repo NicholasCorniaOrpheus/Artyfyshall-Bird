@@ -1,0 +1,1 @@
+\relative c''{<<{d16[cs! d e] f8[d]} \\ {f,4 r} >>}

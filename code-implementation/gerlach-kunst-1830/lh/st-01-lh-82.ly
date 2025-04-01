@@ -1,0 +1,1 @@
+\relative c{e8[<gs! d'> gs <d' e>]}

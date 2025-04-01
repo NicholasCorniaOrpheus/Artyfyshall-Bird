@@ -1,0 +1,1 @@
+\relative c{<a' c>8[<fs! a d> <g b f'!> <a c e>]}

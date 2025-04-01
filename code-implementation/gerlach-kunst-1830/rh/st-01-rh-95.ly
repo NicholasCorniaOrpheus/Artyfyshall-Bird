@@ -1,0 +1,1 @@
+\relative c''{<<{e16[f d e] c4} \\ {g8[f] e4} >>}
