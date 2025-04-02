@@ -1,0 +1,1 @@
+\relative c''{g'16[fs! g gs!] a8[d,]}

@@ -1,0 +1,1 @@
+\relative c{<<{r8 <b' e>[<b e> <b e>]} \\ {gs!2} >>}

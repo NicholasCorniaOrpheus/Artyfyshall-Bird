@@ -1,0 +1,1 @@
+\relative c{<<{r8 e'[d] r} \\ {a4 r8 d,} >>}

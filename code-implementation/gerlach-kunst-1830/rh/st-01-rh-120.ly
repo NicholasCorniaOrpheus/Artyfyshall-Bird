@@ -1,0 +1,1 @@
+\relative c''{a8[<c, a'>] <c a'>4}
