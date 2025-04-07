@@ -1,0 +1,1 @@
+\relative c{<f c' d>4 <g b d>8[<g d' f>]}
