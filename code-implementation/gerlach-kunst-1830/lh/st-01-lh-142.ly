@@ -1,0 +1,1 @@
+\relative c{<<{r8 <c' ef!> r <c ef>} \\ {fs,!4 f!}>>}

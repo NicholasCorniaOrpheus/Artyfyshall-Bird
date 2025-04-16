@@ -1,0 +1,1 @@
+\relative c{<<{r8 <gs'! d'>8[<gs d'> <gs d'>]} \\ {e2}>>}

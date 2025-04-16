@@ -1,0 +1,1 @@
+\relative c{<<{r8 s r s} \\ {bf'!4 c}>>}

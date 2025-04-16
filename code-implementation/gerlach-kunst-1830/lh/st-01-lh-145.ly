@@ -1,0 +1,1 @@
+\relative c{<gs'! b! f'>4 <g! b f'>}

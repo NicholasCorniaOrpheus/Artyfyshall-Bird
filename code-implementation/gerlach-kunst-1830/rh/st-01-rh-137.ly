@@ -1,0 +1,1 @@
+\relative c''{<<{d8 bf'!16[d] c8[e,]} \\ {s8 <d, g>8 s8 <g bf!>}>>}
